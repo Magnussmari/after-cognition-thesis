@@ -1,25 +1,15 @@
 'use client'
 
-import { redirect } from 'next/navigation'
-
-export default function LoginPage() {
-  // Redirect to password login page
-  redirect('/auth/login/password')
-}
-
-// Keep the old magic link code below for reference
-/*
 import { createClient } from '@/lib/supabase/client'
-import { useState, Suspense } from 'react'
-import { useRouter, useSearchParams } from 'next/navigation'
+import { useState } from 'react'
+import { useRouter } from 'next/navigation'
 
-function LoginForm() {
+export default function PasswordLoginPage() {
   const [email, setEmail] = useState('')
+  const [password, setPassword] = useState('')
   const [loading, setLoading] = useState(false)
   const [message, setMessage] = useState('')
   const router = useRouter()
-  const searchParams = useSearchParams()
-  const redirectTo = searchParams.get('redirectTo') || '/'
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -28,17 +18,40 @@ function LoginForm() {
 
     const supabase = createClient()
     
-    const { error } = await supabase.auth.signInWithOtp({
+    const { data, error } = await supabase.auth.signInWithPassword({
       email,
+      password,
+    })
+
+    if (error) {
+      setMessage(`Error: ${error.message}`)
+      setLoading(false)
+    } else {
+      router.push('/')
+      router.refresh()
+    }
+  }
+
+  const handleSignUp = async () => {
+    setLoading(true)
+    setMessage('')
+
+    const supabase = createClient()
+    
+    const { data, error } = await supabase.auth.signUp({
+      email,
+      password,
       options: {
-        emailRedirectTo: `${window.location.origin}/auth/callback?next=${redirectTo}`,
-      },
+        data: {
+          full_name: email.split('@')[0],
+        }
+      }
     })
 
     if (error) {
       setMessage(`Error: ${error.message}`)
     } else {
-      setMessage('Check your email for the login link!')
+      setMessage('Account created! You can now log in.')
     }
     
     setLoading(false)
@@ -95,6 +108,31 @@ function LoginForm() {
             />
           </div>
           
+          <div style={{ marginBottom: '1.5rem' }}>
+            <label style={{ 
+              display: 'block', 
+              marginBottom: '0.5rem',
+              fontWeight: '500',
+              color: '#555'
+            }}>
+              Password
+            </label>
+            <input
+              type="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              required
+              style={{
+                width: '100%',
+                padding: '0.75rem',
+                border: '1px solid #ddd',
+                borderRadius: '4px',
+                fontSize: '1rem'
+              }}
+              placeholder="Enter your password"
+            />
+          </div>
+          
           <button
             type="submit"
             disabled={loading}
@@ -106,10 +144,29 @@ function LoginForm() {
               border: 'none',
               borderRadius: '4px',
               fontSize: '1rem',
+              cursor: loading ? 'not-allowed' : 'pointer',
+              marginBottom: '0.5rem'
+            }}
+          >
+            {loading ? 'Processing...' : 'Sign In'}
+          </button>
+          
+          <button
+            type="button"
+            onClick={handleSignUp}
+            disabled={loading}
+            style={{
+              width: '100%',
+              padding: '0.75rem',
+              backgroundColor: loading ? '#ccc' : '#28a745',
+              color: 'white',
+              border: 'none',
+              borderRadius: '4px',
+              fontSize: '1rem',
               cursor: loading ? 'not-allowed' : 'pointer'
             }}
           >
-            {loading ? 'Sending...' : 'Send Magic Link'}
+            {loading ? 'Processing...' : 'Create Account'}
           </button>
         </form>
         
@@ -132,11 +189,13 @@ function LoginForm() {
           fontSize: '0.9rem',
           color: '#666'
         }}>
-          <p>Secure access via magic link authentication.</p>
-          <p>No password required.</p>
+          <p>Quick access credentials:</p>
+          <p style={{ fontFamily: 'monospace', marginTop: '0.5rem' }}>
+            Email: magnussmari@unak.is<br/>
+            Password: temp-password-change-me
+          </p>
         </div>
       </div>
     </div>
   )
 }
-*/
