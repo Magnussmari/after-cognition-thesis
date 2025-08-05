@@ -1,8 +1,9 @@
 {
   "name": "after-cognition-thesis",
   "version": "1.0.0",
-  "description": "Secure thesis review system with Supabase authentication",
+  "description": "Dynamic thesis reader for 'After Cognition'",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -13,11 +14,17 @@
     "supabase:stop": "supabase stop",
     "supabase:reset": "supabase db reset",
     "supabase:migrate": "supabase db push",
-    "supabase:types": "supabase gen types typescript --local > src/lib/supabase/database.types.ts"
+    "supabase:types": "supabase gen types typescript --local > src/lib/supabase/database.types.ts",
+    "sync-content": "node scripts/sync-content.js",
+    "sync-content:dev": "node scripts/sync-content.js --dev",
+    "mcp:build": "cd supabase-thesis-mcp && npm run build",
+    "mcp:dev": "cd supabase-thesis-mcp && npm run dev"
   },
   "dependencies": {
     "@supabase/ssr": "^0.1.0",
     "@supabase/supabase-js": "^2.39.0",
+    "cheerio": "^1.0.0-rc.12",
+    "gray-matter": "^4.0.3",
     "next": "^14.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
