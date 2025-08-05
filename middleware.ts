@@ -12,10 +12,10 @@ export const config = {
      * - _next/static (static files)
      * - _next/image (image optimization files)
      * - favicon.ico (favicon file)
-     * - auth/login (login page)
-     * - auth/callback (auth callback)
-     * Feel free to modify this pattern to include more paths.
+     * - auth (all auth routes)
+     * - test (test page)
+     * - api (all API routes)
      */
-    '/((?!_next/static|_next/image|favicon.ico|auth/login|auth/callback|auth/signup|api/auth).*)',
+    '/((?!_next/static|_next/image|favicon.ico|auth|test|api).*)',
   ],
 }
