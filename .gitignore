@@ -1,0 +1,30 @@
+# Quarto output
+docs/
+.quarto/
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# Editor files
+.vscode/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local

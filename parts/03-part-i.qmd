@@ -1,0 +1,53 @@
+# Part I: The Economic and Existential Imperative: Defining the Commoditization Crisis
+
+## The New Economic Reality: Generative AI as a General-Purpose Technology
+
+Generative AI functions as a general-purpose technology: it improves rapidly, diffuses pervasively, and catalyzes complements. Its software nature compresses diffusion from decades to years, creating economic consequences that will manifest far more quickly than previous technological revolutions.
+
+The technology demonstrates three defining characteristics of a GPT. First, its capabilities improve exponentially—inference prices and context windows have shifted by orders of magnitude since 2023 [@dell2023navigating; @anthropic2024; @openai2024], compressing adoption timelines. Second, it pervades every information-intensive domain: customer service, software development, research, creative work, and analysis. Third, it spawns complementary innovations across business models, scientific discovery, and creative expression.
+
+Unlike the steam engine or electricity, whose impacts unfolded over generations, generative AI's software-based nature enables near-instantaneous global deployment. This acceleration manifests in documented productivity gains that challenge fundamental assumptions about knowledge work. Management consultants using AI complete tasks 25% faster with 40% higher quality [@dell2023navigating]. Software developers increase output by 56% [@peng2023impact]. Call center workers resolve 14% more issues per hour [@brynjolfsson2023generative]. These gains represent not marginal improvements but fundamental shifts in the economics of cognitive labor.
+
+::: {.callout-note}
+## Key Distinction: Commoditization vs Commodification
+
+- **Commoditization**: Market process where differentiated goods become undifferentiated (what AI does to cognitive tasks)
+- **Commodification**: Transformation of non-market relations into market goods (broader social process)
+
+AI accelerates both, but this thesis focuses on commoditization's impact on human value. In this thesis, the primary causal driver is *commoditization*; *commodification* is treated as a social externality.
+:::
+
+The labor market implications diverge from historical patterns. Previous waves of automation primarily displaced routine manual and clerical work, increasing premiums for higher education. Generative AI uniquely targets high-level cognitive tasks: analysis, problem-solving, persuasion, and ideation—the traditional domain of educated professionals. Research indicates AI affects more tasks performed by college graduates than high school graduates [@felten2023occupational], with freelance writing markets already showing income and volume declines post-ChatGPT.
+
+Paradoxically, while devaluing expertise, AI also functions as a powerful leveling technology. Entry-level workers see the greatest gains: novice consultants improve 43% with AI assistance versus 17% for top performers [@dell2023navigating]. This simultaneous devaluation of accumulated expertise and elevation of novices constitutes the core tension of the commoditization crisis.
+
+## The Approaching Singularity of Cost: The Economics of Zero-Marginal Cognition
+
+The commoditization crisis stems from a fundamental economic inversion. For centuries, human intelligence represented a scarce, expensive resource. Expert judgment, creative insight, and analytical capability commanded premiums because they required years of training and could only be deployed serially, one task at a time.
+
+Generative AI collapses this scarcity. After training costs are amortized, producing an additional legal brief, code module, or strategic analysis approaches zero marginal cost. This mirrors the digital media revolution but for cognition itself. Just as streaming eliminated physical media's unit economics, AI eliminates the unit economics of thought.
+
+The term "COGSware"^[A term of art from grey literature (Medium post), see @nanayakkara2025cogsware, contrasting with traditional SaaS unit economics. While not peer-reviewed, this concept effectively captures the economic shift in AI applications.] captures this shift: unlike traditional SaaS with fixed infrastructure costs, AI applications face variable compute costs that scale with usage. This creates new economic dynamics:
+
+| Dimension | Traditional SaaS | AI/COGSware |
+|-----------|-----------------|-------------|
+| Cost Structure | Fixed infrastructure | Variable compute |
+| Gross Margins | 80-90% | 50-70% |
+| Pricing Model | Per seat/month | Per token/query |
+| Scaling Economics | Near-zero marginal cost | Linear compute costs |
+
+*Table: Economic comparison of SaaS versus AI-powered applications. Margins vary widely by model family and optimization; figures are illustrative.*
+
+These economics drive a race to the bottom for commoditized cognitive tasks. Why pay $200/hour for a junior analyst when AI produces comparable output for $0.20? Why maintain a customer service team when chatbots handle substantial shares of routine queries at a fraction of the cost? The questions become existential for knowledge workers whose differentiation evaporates.
+
+## Beyond Price: The Philosophical Consequences of the Commoditization of Cognition
+
+The commoditization of cognition raises questions that transcend economics. When machines generate plausible text, images, and ideas at near-zero cost, what happens to human creative identity? When AI produces "good enough" solutions instantly, what justifies the slower, more expensive human process?
+
+The crisis is not merely economic displacement but existential disorientation. Knowledge workers invested decades developing expertise that AI now approximates in milliseconds. Creative professionals who derived meaning from their unique perspective watch machines generate infinite variations on any theme. The psychological impact parallels what craftsmen experienced during industrialization, but compressed into years rather than generations.
+
+This speed of change precludes gradual adaptation. Previous technological shifts allowed generational adjustment—children entered new industries while parents retained obsolete but temporarily valuable skills. AI's pace offers no such buffer. A copywriter whose skills commanded premium rates in 2022 faces existential questions about professional identity by 2025.
+
+The commoditization extends beyond individual impact to social fabric. When cognitive output becomes undifferentiated, meaning must be structured through irreducible human capacities. As machines handle analysis, creation, and even emotional support, what remains essentially human are the domains of embodied presence, intersubjective cohesion, and narrative meaning-making. These domains persist not from nostalgia but from clear-eyed analysis of what computation cannot replicate—not due to temporary technical limitations but due to fundamental architectural constraints. Throughout, 'cannot' means 'cannot^[Under present architectures].'
+
+The next section maps these irreducible territories, grounding the analysis in phenomenology's rigorous examination of lived experience. The goal is neither to deny AI's transformative power nor to retreat into humanism's comfortable assumptions, but to chart with precision the domains where human value concentrates as computational power expands.

@@ -1,0 +1,34 @@
+# Front Matter {.unnumbered}
+
+{{< pagebreak >}}
+
+::: {.content-hidden when-format="pdf"}
+# Dedication {.unnumbered}
+:::
+
+\thispagestyle{empty}
+\vspace*{\fill}
+\begin{center}
+\textit{For Ástrós, who reminds me daily of what no machine can replicate.}
+\end{center}
+\bigskip
+\begin{center}
+\textit{And to our daughters, Alexandra and Matthildur: \\ may you author your life stories through lived experiences. \\ You are the core of mine.}
+\end{center}
+\vfill
+
+{{< pagebreak >}}
+
+\thispagestyle{empty}
+\vspace*{\fill}
+\begin{center}
+\textit{We are not building a sanctuary to protect humanity from the storm of artificial intelligence. We are building an arena. Our purpose is to engineer a crisis of choice so profound that it forces humanity to remember what it is, and to become the best version of itself in the struggle. This is not about survival; it is about a forced and glorious ascent.}
+\end{center}
+\bigskip
+\begin{center}
+--- Magnús Smári Smárason \\
+August 5, 2025
+\end{center}
+\vfill
+
+{{< pagebreak >}}

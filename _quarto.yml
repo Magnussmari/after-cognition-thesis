@@ -1,0 +1,96 @@
+project:
+  type: book
+  output-dir: docs  # GitHub Pages serves from /docs folder
+
+book:
+  title: "After Cognition: Human Value in the Age of Irreducibility"
+  subtitle: "The Ástrós Paradox"
+  author: "Magnús Smári Smárason"
+  date: "July 30, 2025"
+  
+  chapters:
+    - index.qmd
+    - parts/00-frontmatter.qmd
+    - parts/01-prologue.qmd
+    - parts/02-introduction.qmd
+    - parts/03-part-i.qmd
+    - parts/04-part-ii.qmd
+    - parts/05-part-iii.qmd
+    - parts/06-part-iv.qmd
+    - parts/07-conclusion.qmd
+    - parts/08-appendices.qmd
+
+bibliography: resources/astros_references_complete.bib
+csl: resources/apa-7.csl
+
+format:
+  html:
+    theme: cosmo
+    comments:
+      hypothesis: true
+    toc: true
+    toc-depth: 3
+    toc-expand: 2
+    number-sections: true
+    number-depth: 3
+    callout-appearance: default
+    highlight-style: github
+    code-fold: false
+    code-tools: true
+    smooth-scroll: true
+    link-external-icon: true
+    link-external-newwindow: true
+    
+  pdf:
+    documentclass: book
+    classoption: [12pt, openany]
+    papersize: a4
+    geometry:
+      - top=30mm
+      - bottom=30mm
+      - left=35mm
+      - right=25mm
+    toc: true
+    number-sections: true
+    linestretch: 1.5
+    include-in-header:
+      - text: |
+          \usepackage{epigraph}
+          \usepackage{tikz}
+          \usetikzlibrary{backgrounds,shapes,arrows,arrows.meta,positioning,shadows,decorations.pathmorphing,patterns,shadings,calc}
+          \usepackage[cmyk]{xcolor}
+          % Define all the colors used in the document
+          \definecolor{Ink}{RGB}{20,20,20}
+          \definecolor{Presence}{cmyk}{0.68,0.38,0.00,0.24}
+          \definecolor{Cohesion}{cmyk}{0.52,0.05,0.45,0.18}
+          \definecolor{Meaning}{cmyk}{0.15,0.80,0.72,0.20}
+          \definecolor{Core}{cmyk}{0.00,0.16,1.00,0.00}
+          \definecolor{MidGray}{cmyk}{0,0,0,0.40}
+          \definecolor{LightGray}{cmyk}{0,0,0,0.10}
+          % Better paragraph spacing
+          \setlength{\parskip}{0.5\baselineskip}
+          \setlength{\parindent}{0pt}
+          % Ensure proper figure placement
+          \usepackage{float}
+          \floatplacement{figure}{H}
+          % Chapter title formatting - smaller size
+          \usepackage{titlesec}
+          \titleformat{\chapter}[display]
+            {\normalfont\Large\bfseries}  % Changed from \huge to \Large
+            {\chaptertitlename\ \thechapter}
+            {15pt}  % Reduced from 20pt
+            {\Large}  % Changed from \Huge
+          \titlespacing*{\chapter}{0pt}{-30pt}{30pt}  % Adjust spacing
+          % Page headers and footers
+          \usepackage{fancyhdr}
+          \pagestyle{fancy}
+          \fancyhf{} % Clear all headers/footers
+          \fancyhead[L]{\small\textit{The Irreducibility Thesis}}
+          \fancyhead[R]{\small\thepage}
+          \renewcommand{\headrulewidth}{0.4pt}
+          % Different headers for chapter pages
+          \fancypagestyle{plain}{
+            \fancyhf{}
+            \fancyfoot[C]{\thepage}
+            \renewcommand{\headrulewidth}{0pt}
+          }
