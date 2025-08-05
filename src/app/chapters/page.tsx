@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import { redirect } from 'next/navigation';
 import Navigation from '@/components/Navigation';
 import ChapterList from '@/components/ChapterList';
