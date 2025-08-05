@@ -1,6 +1,8 @@
 # Appendix A: The Baruchello Loop — A Meditation on Irreducibility {.unnumbered}
 
-*Named after Professor Roberto Baruchello, my supervisor at the University of Akureyri, whose guidance inspired this exploration of recursive human-AI interaction.*
+## The Baruchello Loop: A Case Study in Recursive Human-AI Interaction
+
+*Named after Professor Giorgio Baruchello, my supervisor at the University of Akureyri, whose guidance inspired this exploration of recursive human-AI interaction.*
 
 ## The Baruchello Loop: A Case Study in Recursive Human-AI Interaction
 
@@ -11,7 +13,7 @@ This concept emerged from my own documented meta-interaction with Gemini 2.5, an
 On July 29, 2025, in Akureyri, I engaged in a recursive experiment with Gemini:
 
 1. **Content Generation**: I prompted Gemini to generate a thesis proposal on "The Paradox of Enhancement"—arguing that certain aspects of human value lie beyond AI's scope
-2. **Persona-Based Critique**: I then fed this AI-generated text back to Gemini, instructing it to critique the work while adopting the persona of "Professor Roberto Baruchello"
+2. **Persona-Based Critique**: I then fed this AI-generated text back to Gemini, instructing it to critique the work while adopting the persona of "Professor Giorgio Baruchello"
 3. **Emotional Prompting**: When I expressed feeling deflated by the critique, the AI persona shifted to offer encouragement—demonstrating responsiveness to emotional context
 4. **Native AI Critique**: I asked Gemini to drop the persona and critique as itself
 5. **Meta-Awareness**: I pointed out the recursive nature: "and the proposal is the thesis is that not meta?"
