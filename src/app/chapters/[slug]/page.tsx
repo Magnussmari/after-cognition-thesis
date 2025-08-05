@@ -11,7 +11,7 @@ interface ChapterPageProps {
 }
 
 export default async function ChapterPage({ params }: ChapterPageProps) {
-  const supabase = createClient();
+  const supabase = await createClient();
   
   const { data: { user } } = await supabase.auth.getUser();
   

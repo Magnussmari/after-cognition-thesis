@@ -7,7 +7,7 @@ import { createClient } from '@/lib/supabase/server';
 import { getUserBookmarks, deleteBookmark } from '@/utils/supabase-utils';
 
 export default async function BookmarksPage() {
-  const supabase = createClient();
+  const supabase = await createClient();
   
   const { data: { user } } = await supabase.auth.getUser();
   

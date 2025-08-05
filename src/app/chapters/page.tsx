@@ -7,7 +7,7 @@ import { createClient } from '@/lib/supabase/server';
 import { getChapters } from '@/utils/supabase-utils';
 
 export default async function ChaptersPage() {
-  const supabase = createClient();
+  const supabase = await createClient();
   
   const { data: { user } } = await supabase.auth.getUser();
   

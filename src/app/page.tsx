@@ -6,7 +6,7 @@ import { createClient } from '@/lib/supabase/server';
 import { redirect } from 'next/navigation';
 
 export default async function HomePage() {
-  const supabase = createClient();
+  const supabase = await createClient();
   
   const { data: { user } } = await supabase.auth.getUser();
   
@@ -15,10 +15,14 @@ export default async function HomePage() {
   }
 
   // Get thesis metadata
-  const { data: thesis } = await supabase
+  const { data: thesis, error: thesisError } = await supabase
     .from('thesis_metadata')
     .select('*')
     .single();
+  
+  if (thesisError) {
+    console.error('Error fetching thesis metadata:', thesisError);
+  }
 
   return (
     <div className="min-h-screen">
