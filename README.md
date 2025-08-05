@@ -1,23 +1,410 @@
 # After Cognition: Human Value in the Age of Irreducibility
 
-**The Ástrós Paradox - Clean Edition**
+## 🎓 Secure Thesis Review System
 
-A modular, LLM-friendly edition of the thesis designed for collaborative editing and refinement.
-
----
-
-## 📚 **Project Overview**
-
-This is the "clean edition" of the doctoral thesis "After Cognition: Human Value in the Age of Irreducibility" by Magnús Smári Smárason. The original 1,482-line monolithic document has been restructured into manageable, modular files optimized for:
-
-- **LLM-assisted editing** (each part is 200-500 lines)
-- **Collaborative development** (multiple people can work on different sections)
-- **Version control** (track changes to individual components)
-- **Professional publishing** (Quarto book format with multiple output options)
+A modern, password-protected thesis platform built with **Quarto**, **Supabase Authentication**, and **GitHub Pages**. This system provides enterprise-grade security for academic document review while maintaining a beautiful, responsive reading experience.
 
 ---
 
-## 🎯 **Core Thesis**
+## 🌟 Features
+
+### 🔐 **Authentication & Security**
+- **Magic Link Authentication** - No passwords required, secure email-based login
+- **Role-Based Access Control** - Admin, Reviewer, and Guest permission levels
+- **Row Level Security (RLS)** - Database-level protection for all user data
+- **Audit Logging** - Complete tracking of all access attempts and activities
+- **Session Management** - Secure token handling with automatic refresh
+
+### 📖 **Thesis Platform**
+- **Beautiful Reading Experience** - Clean, academic typography optimized for long-form reading
+- **Responsive Design** - Perfect on desktop, tablet, and mobile devices
+- **Fast Loading** - Static site generation for optimal performance
+- **Search Functionality** - Built-in search across thesis content
+- **Navigation** - Intuitive chapter-based navigation system
+
+### 🛠 **Technical Excellence**
+- **Static Site Generation** - Built with Quarto for optimal performance
+- **Modern Architecture** - Supabase backend with JavaScript frontend
+- **GitHub Pages Deployment** - Automatic deployment and hosting
+- **TypeScript Support** - Type-safe development environment
+- **Scalable Design** - Ready for multiple theses and additional features
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Git
+- Node.js (v18+)
+- Supabase account
+- GitHub account
+
+### 1. Clone Repository
+```bash
+git clone https://github.com/Magnussmari/after-cognition-thesis.git
+cd after-cognition-thesis
+```
+
+### 2. Install Dependencies
+```bash
+npm install
+```
+
+### 3. Database Setup
+1. Go to [Supabase Dashboard](https://supabase.com/dashboard)
+2. Open **SQL Editor**
+3. Copy and run the contents of `supabase/migrations/20250110_initial_schema.sql`
+
+### 4. Create Admin Account
+In Supabase SQL Editor, run:
+```sql
+-- Replace with your email
+UPDATE public.profiles SET role = 'admin' WHERE email = 'your.email@example.com';
+INSERT INTO public.thesis_access (user_id, thesis_id, access_level, granted_by)
+SELECT id, 'after-cognition', 'admin', id FROM public.profiles WHERE email = 'your.email@example.com';
+```
+
+### 5. Configure Environment
+Create `.env.local`:
+```env
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key
+SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
+```
+
+### 6. Deploy
+```bash
+# Build the site
+quarto render
+
+# Deploy to GitHub Pages (automated via Actions)
+git add .
+git commit -m "Deploy thesis"
+git push origin main
+```
+
+---
+
+## � Project Structure
+
+```
+after-cognition-thesis/
+├── 📖 Thesis Content
+│   ├── parts/                    # Thesis chapters
+│   │   ├── 00-frontmatter.qmd   
+│   │   ├── 01-prologue.qmd      
+│   │   ├── 02-introduction.qmd   
+│   │   └── ...                  
+│   ├── resources/               # Bibliography & assets
+│   │   ├── astros_references_complete.bib
+│   │   └── graphics/            
+│   └── _quarto.yml             # Quarto configuration
+│
+├── 🔐 Authentication System
+│   ├── docs/                   # Generated site + auth
+│   │   ├── auth.html          # Login page
+│   │   ├── auth-callback.html # Auth handler
+│   │   ├── index.html         # Protected entry point
+│   │   └── index-original.html # Original thesis
+│   ├── src/                   # TypeScript source
+│   │   ├── lib/supabase/      # Supabase clients & types
+│   │   ├── middleware/        # Auth middleware
+│   │   └── app/auth/          # Auth routes
+│   └── supabase/              # Database schema
+│       └── migrations/        
+│
+├── ⚙️ Configuration
+│   ├── .env.local            # Environment variables
+│   ├── package.json          # Dependencies
+│   ├── tsconfig.json         # TypeScript config
+│   ├── next.config.js        # Next.js config
+│   └── middleware.ts         # Auth middleware
+│
+└── 📚 Documentation
+    ├── README.md             # This file
+    ├── IMPLEMENTATION_COMPLETE.md
+    ├── MANUAL_SETUP.md       
+    └── AUTHOR_SETUP.md       
+```
+
+---
+
+## 🔐 Authentication Flow
+
+### For New Users
+1. **Visit Thesis** → Redirected to login page
+2. **Enter Email** → Receive magic link
+3. **Click Link** → Authenticated & redirected to thesis
+4. **Access Granted** → Based on assigned permissions
+
+### For Admins
+1. **Full Access** → No restrictions
+2. **User Management** → Grant/revoke access via Supabase Dashboard
+3. **Audit Logs** → View all access attempts and activities
+
+### Security Features
+- **Magic Links** → No passwords to compromise
+- **Row Level Security** → Database-level access control
+- **Session Tokens** → Secure, auto-refreshing authentication
+- **Role-Based Permissions** → Granular access control
+- **Audit Trail** → Complete activity logging
+
+---
+
+## 👥 User Roles & Permissions
+
+| Role | Permissions | Use Case |
+|------|-------------|----------|
+| **Admin** | Full access, user management, audit logs | Thesis author, supervisors |
+| **Reviewer** | Read + comment permissions | External reviewers, committee members |
+| **Guest** | Read-only access | General access, limited review |
+
+### Managing User Access
+
+#### Grant Access (via Supabase Dashboard)
+```sql
+-- Grant reviewer access
+INSERT INTO public.thesis_access (user_id, thesis_id, access_level, granted_by)
+SELECT 
+  (SELECT id FROM public.profiles WHERE email = 'reviewer@university.edu'),
+  'after-cognition',
+  'reviewer',
+  auth.uid();
+```
+
+#### Revoke Access
+```sql
+-- Revoke access
+UPDATE public.thesis_access 
+SET is_active = false 
+WHERE user_id = (SELECT id FROM public.profiles WHERE email = 'user@example.com');
+```
+
+#### Set Expiration
+```sql
+-- Set 30-day access
+UPDATE public.thesis_access 
+SET expires_at = now() + interval '30 days'
+WHERE user_id = (SELECT id FROM public.profiles WHERE email = 'user@example.com');
+```
+
+---
+
+## 🛠 Development Guide
+
+### Local Development
+```bash
+# Start development server
+npm run dev
+
+# Type checking
+npm run type-check
+
+# Lint code
+npm run lint
+```
+
+### Building Thesis
+```bash
+# Render Quarto site
+quarto render
+
+# Preview locally
+quarto preview
+```
+
+### Database Management
+```bash
+# Reset database (local development)
+npm run supabase:reset
+
+# Generate TypeScript types
+npm run supabase:types
+
+# Apply migrations
+npm run supabase:migrate
+```
+
+### Adding New Content
+1. **Create new chapter** in `parts/`
+2. **Update `_quarto.yml`** to include new chapter
+3. **Add to navigation** if needed
+4. **Render and deploy**
+
+---
+
+## 🚀 Deployment
+
+### Automatic Deployment
+- **Push to main** → GitHub Actions builds and deploys
+- **Live at:** `https://magnussmari.github.io/after-cognition-thesis/`
+
+### Manual Deployment
+```bash
+# Build site
+quarto render
+
+# Commit changes
+git add docs/
+git commit -m "Update thesis content"
+git push origin main
+```
+
+### Environment Variables (Production)
+Set in GitHub repository settings:
+- `NEXT_PUBLIC_SUPABASE_URL`
+- `NEXT_PUBLIC_SUPABASE_ANON_KEY`
+- `SUPABASE_SERVICE_ROLE_KEY`
+
+---
+
+## 📊 Analytics & Monitoring
+
+### Access Analytics (via Supabase Dashboard)
+```sql
+-- Daily access counts
+SELECT 
+  DATE(created_at) as date,
+  COUNT(*) as access_count
+FROM public.audit_log 
+WHERE action = 'access_thesis'
+GROUP BY DATE(created_at)
+ORDER BY date DESC;
+
+-- User activity summary
+SELECT 
+  p.email,
+  p.role,
+  COUNT(al.id) as total_accesses,
+  MAX(al.created_at) as last_access
+FROM public.profiles p
+LEFT JOIN public.audit_log al ON p.id = al.user_id
+GROUP BY p.id, p.email, p.role
+ORDER BY total_accesses DESC;
+```
+
+### Security Monitoring
+```sql
+-- Failed access attempts
+SELECT * FROM public.audit_log 
+WHERE details->>'status' = 'failed'
+ORDER BY created_at DESC;
+
+-- Unusual access patterns
+SELECT 
+  user_id,
+  ip_address,
+  COUNT(*) as access_count,
+  MIN(created_at) as first_access,
+  MAX(created_at) as last_access
+FROM public.audit_log
+WHERE created_at > NOW() - INTERVAL '24 hours'
+GROUP BY user_id, ip_address
+HAVING COUNT(*) > 50;
+```
+
+---
+
+## 🔧 Customization
+
+### Styling
+- **Modify `docs/auth.html`** for login page styling
+- **Update Quarto theme** in `_quarto.yml`
+- **Custom CSS** in `resources/` directory
+
+### Authentication
+- **Add OAuth providers** in Supabase Dashboard
+- **Customize email templates** in Supabase Auth settings
+- **Modify access checks** in auth middleware
+
+### Features
+- **Add commenting system** using Supabase database
+- **File uploads** with Supabase Storage
+- **Real-time collaboration** with Supabase Realtime
+- **Email notifications** with Supabase Edge Functions
+
+---
+
+## 🆘 Troubleshooting
+
+### Common Issues
+
+#### Authentication Not Working
+```bash
+# Check environment variables
+cat .env.local
+
+# Verify Supabase connection
+npm run supabase:test
+```
+
+#### Database Connection Issues
+1. Check Supabase project status
+2. Verify RLS policies are applied
+3. Ensure user has proper role assignment
+
+#### Build Failures
+```bash
+# Clean build
+rm -rf docs/
+quarto render
+
+# Check for missing dependencies
+npm install
+```
+
+### Support Resources
+- **GitHub Issues:** [Report bugs and request features](https://github.com/Magnussmari/after-cognition-thesis/issues)
+- **Supabase Docs:** [Authentication](https://supabase.com/docs/guides/auth) | [RLS](https://supabase.com/docs/guides/auth/row-level-security)
+- **Quarto Docs:** [Books](https://quarto.org/docs/books/) | [Publishing](https://quarto.org/docs/publishing/)
+
+---
+
+## 📄 License & Citation
+
+### License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+### Citation
+```bibtex
+@phdthesis{aftercognition2025,
+  title={After Cognition: Human Value in the Age of Irreducibility},
+  author={[Author Name]},
+  year={2025},
+  school={[University Name]},
+  url={https://magnussmari.github.io/after-cognition-thesis/}
+}
+```
+
+---
+
+## 🙏 Acknowledgments
+
+- **Quarto** - For excellent academic publishing tools
+- **Supabase** - For robust backend-as-a-service platform
+- **GitHub Pages** - For reliable static site hosting
+- **TypeScript** - For type-safe development
+
+---
+
+## 📈 Roadmap
+
+### Version 2.0 (Planned)
+- [ ] **Commenting System** - Inline thesis comments
+- [ ] **Version Control** - Track thesis revisions
+- [ ] **Export Options** - PDF, EPUB, Word formats
+- [ ] **Admin Dashboard** - Web-based user management
+- [ ] **Email Notifications** - Access requests and updates
+
+### Version 3.0 (Future)
+- [ ] **Multi-Thesis Support** - Platform for multiple documents
+- [ ] **Collaboration Tools** - Real-time editing and review
+- [ ] **Advanced Analytics** - Reading patterns and engagement
+- [ ] **Integration APIs** - Connect with institutional systems
+
+---
+
+**Built with ❤️ for academic excellence and secure scholarly communication.**
 
 The thesis investigates how generative AI's commoditization of cognitive labor transforms rather than destroys human value. The central argument is the **Value Concentration Hypothesis**: as AI handles computable tasks, economic and existential value concentrates in three irreducible human domains:
 

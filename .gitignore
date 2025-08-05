@@ -30,3 +30,4 @@ docs/
 .env.local
 
 /.quarto/
+node_modules

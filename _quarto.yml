@@ -20,7 +20,7 @@ book:
     - parts/07-conclusion.qmd
     - parts/08-appendices.qmd
 
-bibliography: resources/astros_references_complete.bib
+bibliography: resources/AC_references.bib
 csl: resources/apa-7.csl
 
 format:
