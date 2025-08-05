@@ -38,7 +38,7 @@
 
 ### 2. **Create Your Admin Account**
 1. In Supabase Dashboard, go to **Authentication > Users**
-2. Click **Add user** and enter your email: `magnussmari@unak.com`
+2. Click **Add user** and enter your email: `magnussmari@unak.is`
 3. Go back to **SQL Editor** and run:
 
 ```sql
@@ -53,6 +53,13 @@ SELECT id, 'after-cognition', 'admin', id
 FROM public.profiles 
 WHERE email = 'magnussmari@unak.is';
 ```
+
+### 3. **Test the Authentication**
+1. Visit your GitHub Pages site: `https://magnussmari.github.io/after-cognition-thesis/`
+2. You should be redirected to the login page
+3. Enter your email (`magnussmari@unak.is`) and click "Send Magic Link"
+4. Check your email and click the magic link
+5. You should be authenticated and redirected to the thesis content
 
 ## 🎯 How It Works
 
