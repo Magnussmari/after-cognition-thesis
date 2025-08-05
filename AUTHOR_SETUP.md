@@ -63,7 +63,7 @@ Dear [Supervisor Name],
 I'm pleased to share my thesis "After Cognition: Human Value in the Age of Irreducibility" for your review.
 
 **Access Information:**
-- Online Version: https://[your-username].github.io/after-cognition/
+- Online Version: https://magnussmari.github.io/after-cognition-thesis/
 - Interactive Commenting: Hypothesis annotations enabled
 - Review Guide: Attached comprehensive instructions
 
@@ -184,8 +184,8 @@ quarto publish gh-pages --no-browser
 ## 📚 **Quick Reference**
 
 ### **Important URLs:**
-- GitHub Repository: `https://github.com/[username]/after-cognition`
-- GitHub Pages Site: `https://[username].github.io/after-cognition/`
+- GitHub Repository: `https://github.com/Magnussmari/after-cognition-thesis`
+- GitHub Pages Site: `https://magnussmari.github.io/after-cognition-thesis/`
 - Hypothesis: `https://web.hypothes.is/`
 
 ### **Key Files:**

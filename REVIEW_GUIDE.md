@@ -3,7 +3,7 @@
 ## For Thesis Reviewers and Supervisors
 
 ### Accessing the Thesis
-- **Online Version**: https://magnussmari.github.io/after-cognition/
+- **Online Version**: https://magnussmari.github.io/after-cognition-thesis/
 - **PDF Version**: Available in repository
 - **Word Version**: Available on request
 

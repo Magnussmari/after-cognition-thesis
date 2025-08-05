@@ -39,7 +39,7 @@ if [ $? -eq 0 ]; then
     echo "✅ Deployment successful!"
     echo ""
     echo "📖 Your thesis is now available at:"
-    echo "   https://$(git config --get remote.origin.url | sed 's/.*github.com[:/]\([^/]*\)\/\([^.]*\).*/\1.github.io\/\2/')/"
+    echo "   https://magnussmari.github.io/after-cognition-thesis/"
     echo ""
     echo "💡 Share REVIEW_GUIDE.md with your supervisors for commenting instructions."
 else
