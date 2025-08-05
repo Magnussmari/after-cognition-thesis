@@ -61,7 +61,7 @@ Check that these tables exist:
 - sections
 - user_progress
 - bookmarks
-- references
+- citations
 - figures
 - reading_sessions
 - content_versions

@@ -84,7 +84,7 @@ export interface ReadingSession {
   created_at: string;
 }
 
-export interface Reference {
+export interface Citation {
   id: string;
   citation_key: string;
   title: string;

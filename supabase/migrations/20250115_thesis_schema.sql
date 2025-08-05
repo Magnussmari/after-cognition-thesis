@@ -93,8 +93,8 @@ CREATE TABLE IF NOT EXISTS bookmarks (
 CREATE INDEX IF NOT EXISTS idx_bookmarks_user ON bookmarks(user_id);
 CREATE INDEX IF NOT EXISTS idx_bookmarks_section ON bookmarks(section_id);
 
--- References table for academic citations
-CREATE TABLE IF NOT EXISTS references (
+-- Citations table for academic references (renamed from 'references' which is a reserved word)
+CREATE TABLE IF NOT EXISTS citations (
   id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
   citation_key TEXT UNIQUE NOT NULL, -- e.g., "smith2023"
   title TEXT NOT NULL,
@@ -111,8 +111,8 @@ CREATE TABLE IF NOT EXISTS references (
   created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
 
-CREATE INDEX IF NOT EXISTS idx_references_key ON references(citation_key);
-CREATE INDEX IF NOT EXISTS idx_references_year ON references(publication_year);
+CREATE INDEX IF NOT EXISTS idx_citations_key ON citations(citation_key);
+CREATE INDEX IF NOT EXISTS idx_citations_year ON citations(publication_year);
 
 -- Figures table
 CREATE TABLE IF NOT EXISTS figures (

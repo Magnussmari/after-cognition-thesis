@@ -330,7 +330,7 @@ class SupabaseThesisMCP {
           'DROP TABLE IF EXISTS reading_sessions CASCADE',
           'DROP TABLE IF EXISTS content_versions CASCADE',
           'DROP TABLE IF EXISTS figures CASCADE',
-          'DROP TABLE IF EXISTS references CASCADE',
+          'DROP TABLE IF EXISTS citations CASCADE',
           'DROP TABLE IF EXISTS sections CASCADE',
           'DROP TABLE IF EXISTS chapters CASCADE',
           'DROP TABLE IF EXISTS thesis_metadata CASCADE'
@@ -356,7 +356,7 @@ class SupabaseThesisMCP {
             'sections',
             'user_progress',
             'bookmarks',
-            'references',
+            'citations',
             'figures',
             'reading_sessions',
             'content_versions'
@@ -735,8 +735,8 @@ CREATE TABLE bookmarks (
   updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
 
--- References table
-CREATE TABLE references (
+-- Citations table
+CREATE TABLE citations (
   id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
   citation_key TEXT UNIQUE NOT NULL,
   title TEXT NOT NULL,
