@@ -1,5 +1,15 @@
-# Quarto output
-docs/
+# Quarto output (except auth files)
+docs/*.html
+!docs/auth.html
+!docs/auth-callback.html
+!docs/index.html
+!docs/thesis.html
+!docs/index-original.html
+docs/parts/
+docs/resources/
+docs/site_libs/
+docs/search.json
+docs/*.pdf
 .quarto/
 
 # macOS
