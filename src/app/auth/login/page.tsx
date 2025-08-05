@@ -1,10 +1,8 @@
-'use client'
-
-import { redirect } from 'next/navigation'
+import PasswordLoginPage from './password/page'
 
 export default function LoginPage() {
-  // Redirect to password login page
-  redirect('/auth/login/password')
+  // Use the password login component directly
+  return <PasswordLoginPage />
 }
 
 // Keep the old magic link code below for reference
