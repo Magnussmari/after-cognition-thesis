@@ -79,8 +79,26 @@ quarto preview             # Live preview with auto-refresh
 ```
 
 ### Output Locations
-- **HTML**: `_book/index.html` (interactive web version)
-- **PDF**: `_book/After-Cognition.pdf` (print-ready academic format)
+- **HTML**: `docs/index.html` (interactive web version for GitHub Pages)
+- **PDF**: `docs/After-Cognition.pdf` (print-ready academic format)
+
+### 🌐 **Thesis Review System**
+
+This edition includes a complete thesis review system with:
+
+- **📱 GitHub Pages Deployment**: Professional web hosting for easy sharing
+- **💬 Hypothesis Integration**: Interactive commenting for supervisor feedback
+- **🚀 Automated Deployment**: One-click publishing with `./deploy.sh`
+- **📋 Review Documentation**: Complete guides for reviewers and supervisors
+
+#### Quick Deployment
+```bash
+# Deploy to GitHub Pages (one-time setup required)
+./deploy.sh
+```
+
+#### For Reviewers
+See `REVIEW_GUIDE.md` for complete instructions on using the interactive commenting system.
 
 ---
 

@@ -28,3 +28,5 @@ docs/
 # Environment
 .env
 .env.local
+
+/.quarto/
