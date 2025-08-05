@@ -56,11 +56,21 @@ SELECT id, email, raw_user_meta_data->>'role' as role, email_confirmed_at
 FROM auth.users 
 WHERE email = 'magnussmari@unak.is';
 
--- Instructions for logging in:
--- 1. After running this script, go to: https://after-cognition-thesis.vercel.app/auth/login
--- 2. Use these credentials:
---    Email: magnussmari@unak.is
---    Password: temp-password-change-me
--- 3. Click "Sign In"
-
--- Note: You should change the password after first login for security!
+-- Create a session token (optional - for direct access)
+-- This will output a URL you can use to login directly
+SELECT 
+    'Login URL: https://after-cognition-thesis.vercel.app/auth/callback?access_token=' || 
+    encode(
+        convert_to(
+            json_build_object(
+                'sub', id::text,
+                'email', email,
+                'role', 'authenticated',
+                'exp', extract(epoch from now() + interval '1 hour')::int
+            )::text,
+            'utf8'
+        ),
+        'base64'
+    ) as login_url
+FROM auth.users 
+WHERE email = 'magnussmari@unak.is';
