@@ -419,7 +419,7 @@ The investigation employs the **Ástrós Paradox**: using AI to map its own limi
 ## 📁 **Project Structure**
 
 ```
-clean_edition/
+after_cognition/
 ├── README.md                      # This file
 ├── _quarto.yml                    # Main project configuration
 ├── index.qmd                      # Book entry point with abstract
@@ -451,8 +451,8 @@ clean_edition/
 ### Building the Book
 
 ```bash
-# Navigate to the clean edition directory
-cd clean_edition/
+# Navigate to the after cognition directory
+cd after_cognition/
 
 # Render the entire book (HTML + PDF)
 quarto render
@@ -608,7 +608,7 @@ Practical technique for axiological steering of AI systems using explicit emotio
 ## 🔄 **Version History**
 
 - **v1.0** (July 30, 2025): Original monolithic thesis (1,482 lines)
-- **v2.0** (August 5, 2025): Clean edition with modular structure
+- **v2.0** (August 5, 2025): After Cognition edition with modular structure
 
 ---
 
