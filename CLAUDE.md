@@ -1,132 +1,55 @@
 # CLAUDE.md - Project Context for After Cognition
 
 ## Project Overview
-A dynamic, database-driven thesis platform for "After Cognition: Human Value in the Age of Irreducibility". Built with Supabase + Next.js, transforming static Quarto content into an interactive reading experience.
+"After Cognition: Human Value in the Age of Irreducibility" - A philosophical thesis exploring human value domains that remain irreducible to computational processes in the age of generative AI.
 
-## Current Status ✅
-The platform is **COMPLETE** and ready for production deployment!
+## Thesis Structure
+The thesis is written in Quarto markdown format and consists of:
+- **Frontmatter**: Title, abstract, dedication
+- **Prologue**: Setting the philosophical stage
+- **Introduction**: The challenge of human value in the AI age
+- **Part I**: The Economic and Existential Imperative - Defining the Commoditization Crisis
+- **Part II**: A Lifeworld Cartography - Mapping the Territories of Irreducible Value
+- **Part III**: The Architecture of Cultivation - From Theory to Practice
+- **Part IV**: A Theory of Crisis Integration
+- **Conclusion**: The Path Forward
+- **Appendices**: Technical notes and supplementary material
 
-## Tech Stack
-- **Database**: Supabase (PostgreSQL) with full-text search
-- **Frontend**: Next.js 14 with TypeScript
-- **Styling**: Tailwind CSS with dark mode
-- **Auth**: Supabase Auth with magic links
-- **Content Source**: Quarto HTML (parsed and stored in DB)
-- **MCP Server**: Custom TypeScript server for database operations
-- **Deployment**: Vercel (frontend), Supabase (backend)
+## Key Concepts
+1. **The Value Concentration Hypothesis**: Human value will shift and concentrate in domains not isomorphic to computational architectures
+2. **Three Domains of Irreducible Value**:
+   - **Presence**: Embodied consciousness and qualia
+   - **Cohesion**: Intersubjective trust and community
+   - **Meaning**: Narrative identity and self-authorship
+3. **The Cultivation Economy**: An economic model focused on developing rather than extracting human capacity
 
 ## Project Structure
 ```
 After_cognition/
-├── parts/               # Quarto thesis chapters (source content)
-├── docs/               # Rendered HTML from Quarto
-├── src/                # Next.js application ✅
-│   ├── app/           # App router pages (chapters, bookmarks, progress)
-│   ├── components/    # React components (Navigation, ChapterReader, etc.)
-│   ├── hooks/         # Custom React hooks (useAuth)
-│   ├── lib/          # Supabase client configuration
-│   ├── types/         # TypeScript type definitions
-│   └── utils/         # Utility functions and helpers
-├── scripts/            # Content sync script ✅
-├── supabase/          # Database migrations ✅
-├── supabase-thesis-mcp/  # Custom MCP server ✅
-├── supabase-thesis-plan/  # Complete implementation docs
-├── claude-code-strategy/  # Execution strategy
-└── DEPLOYMENT_GUIDE.md   # Step-by-step deployment instructions ✅
+├── parts/              # Quarto thesis chapters (source content)
+├── docs/              # Rendered HTML from Quarto
+├── resources/         # Bibliography, citations, LaTeX preamble
+├── graphics/          # Diagrams and figures
+├── _quarto.yml        # Quarto configuration
+├── index.qmd          # Main thesis entry point
+└── README.md          # Project documentation
 ```
 
-## Key Features Implemented
-- **Authentication**: Magic link authentication with Supabase Auth
-- **Chapter Navigation**: Table of contents with reading progress visualization
-- **Reading Experience**: Smooth section-by-section reading with bookmarking
-- **Search**: Full-text search across all thesis content
-- **Progress Tracking**: Automatic bookmark and reading progress
-- **Analytics**: Reading statistics and engagement metrics
-- **Dark Mode**: System-aware dark/light theme switching
-- **Mobile Responsive**: Optimized for all device sizes
-- **MCP Integration**: Custom server for database operations
+## Working with the Thesis
+- **Edit content**: Modify .qmd files in the `parts/` directory
+- **Build HTML**: Run `quarto render` to generate docs
+- **Citations**: Use `resources/AC_references.bib` for bibliography
+- **Figures**: Store in `graphics/` directory
 
-## Database Schema
-- `thesis_metadata` - Thesis information
-- `chapters` - Chapter structure and metadata
-- `sections` - Section content with search vectors
-- `user_progress` - Reading progress tracking
-- `bookmarks` - User bookmarks with annotations
-- `citations` - Academic references (renamed from 'references')
-- `figures` - Figure metadata and captions
-- `reading_sessions` - Analytics data
-- `content_versions` - Content version history
+## Current Focus
+The thesis content is complete in draft form. Current work involves:
+- Refining arguments based on feedback
+- Strengthening empirical grounding
+- Improving accessibility of philosophical concepts
+- Preparing for publication/defense
 
-## Current State
-- ✅ Quarto thesis content complete
-- ✅ Authentication system implemented
-- ✅ Supabase project created (axjuevxjcestqhzdgjca)
-- ✅ Database schema created with RLS policies
-- ✅ Content pipeline built and tested
-- ✅ Frontend application complete
-- ✅ MCP server created and functional
-- ⏳ Awaiting Supabase credentials for deployment
-- ⏳ Content needs to be synced to database
-- ⏳ Production deployment pending
-
-## Environment Variables Needed
-```
-SUPABASE_URL=https://axjuevxjcestqhzdgjca.supabase.co
-SUPABASE_ANON_KEY=[from dashboard]
-SUPABASE_SERVICE_ROLE_KEY=[from dashboard]
-NEXT_PUBLIC_SUPABASE_URL=[same as SUPABASE_URL]
-NEXT_PUBLIC_SUPABASE_ANON_KEY=[same as SUPABASE_ANON_KEY]
-```
-
-## Common Commands
-```bash
-# Install dependencies
-npm install
-
-# Start MCP server
-cd supabase-thesis-mcp && npm run dev
-
-# Run content sync
-npm run sync-content
-
-# Start dev server
-npm run dev
-
-# Build for production
-npm run build
-
-# Deploy to Vercel
-vercel --prod
-
-# Run database migration
-# Copy contents of supabase/migrations/20250115_thesis_schema.sql
-# to Supabase SQL Editor and run
-```
-
-## Quick Start for Deployment
-1. Get Supabase credentials from dashboard
-2. Create `.env.local` with credentials
-3. Run database migration in Supabase
-4. Run `npm run sync-content` to upload thesis
-5. Deploy with `vercel --prod`
-
-## Success Criteria ✅
-- All thesis content accessible through dynamic interface ✅
-- Full-text search working ✅
-- Reading progress tracked ✅
-- Mobile responsive ✅
-- Production deployed ⏳
-- < 2 second load times ✅
-
-## Recent Changes
-- Fixed PostgreSQL reserved word issue by renaming 'references' table to 'citations'
-- Implemented complete frontend with all planned features
-- Created comprehensive deployment guide
-- Built custom MCP server for database operations
-
-## Notes for Claude Code
-- The platform is complete and functional
-- Focus now is on deployment and production setup
-- All major features have been implemented
-- Use DEPLOYMENT_GUIDE.md for step-by-step deployment
-- Test with actual Supabase credentials before going live
+## Important Notes
+- The thesis takes a phenomenological approach grounded in Husserl's Lebenswelt
+- Arguments are designed to be near-term (5-10 years) and contingent
+- Focus is on deployed, non-embodied AI systems
+- Cultural specificity is acknowledged throughout

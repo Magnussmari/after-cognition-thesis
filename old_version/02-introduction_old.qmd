@@ -1,0 +1,39 @@
+# Introduction
+
+This thesis examines a fundamental economic and existential shift: as artificial intelligence commoditizes cognitive labor, driving its marginal cost toward zero, human value does not disappear but concentrates in domains that are architecturally irreducible to computation. I call this the Value Concentration Hypothesis, and it has profound implications for how we educate, work, and organize society in an AI-saturated future.
+
+The investigation proceeds in four parts:
+
+Part I establishes the economic reality: generative AI functions as a general-purpose technology that is rapidly commoditizing cognitive work. This creates unprecedented challenges for human workers and raises fundamental questions about the nature of value itself.
+
+Part II maps the territories of irreducible human value through the phenomenological lens of the Lebenswelt. Three domains emerge: Presence (embodied intelligence), Cohesion (intersubjective bonds), and Meaning (narrative identity).
+
+Part III develops an economic model for this value concentration, proposing frameworks for pricing and cultivating capacities that appreciate rather than depreciate as AI scales.
+
+Part IV outlines the paradoxical method: using AI to map its own limits, developing discriminative indicators for irreducibility, and creating cultivation protocols for human development.
+
+Throughout, "irreducible" means "not isomorphic to computation under present architectures"; it does not assert metaphysical impossibility. The aim is practical: to guide individuals, organizations, and societies toward investments in human capacities that will retain and increase their value as artificial intelligence transforms the economic landscape.
+
+This thesis offers one map among many possible cartographies. Written from the particular vantage of a paramedic-turned-researcher, a father's love, and an Icelander's relationship with unforgiving nature, it necessarily bears the marks of its origins. Other perspectives—from different cultures, experiences, and ways of knowing—would undoubtedly reveal territories I cannot see. This limitation is not a flaw but a feature: irreducibility itself resists any single, totalizing account.
+
+::: {.callout-note}
+## The Ástrós Paradox (definition)
+
+Using frontier AI systems to reveal, by their most capable failures, the human capacities they cannot inhabit—thus increasing the value of those capacities and showing where to invest in cultivation.
+:::
+
+::: {.callout-important}
+## Scope & Claims
+
+"Irreducible" = not isomorphic to computation under present mainstream architectures (non-embodied, non-mortal, non-risk-bearing). Descriptive analysis (Ch. 1–2); predictive economics (Ch. 3) framed as contingent forecasts; prescriptive protocols (Ch. 4–5) with explicit limitations. Alternative futures (embodied/agentic AI) are acknowledged in §2.5.1; our recommendations target the near-term deployment reality.
+:::
+
+::: {.callout-tip}
+## Operational Definitions
+
+**Presence (Embodied Self)** - Sustained attention: mind-wandering probes (frequency of task-unrelated thoughts during 15-min intervals) - Interoceptive accuracy: heartbeat detection task performance (Schandry score) - Mortality reflection frequency: ecological momentary assessment of finitude awareness (daily prompts)
+
+**Cohesion (Intersubjective We)** - Validated trust scale change: pre/post interaction scores on Interpersonal Trust Scale - Reciprocity index: ratio of giving to receiving behaviors in structured exchanges - Rupture–repair rate: frequency and resolution time of relationship conflicts (dyadic coding)
+
+**Meaning (Narrative Arc)** - Narrative coherence score: trained coder ratings using McAdams Life Story Interview protocol - Post-adversity growth index: standardized Post-traumatic Growth Inventory scores - Purpose alignment checklist: self-reported congruence between daily actions and life goals
+:::

@@ -2,14 +2,19 @@ project:
   type: book
   output-dir: docs  # GitHub Pages serves from /docs folder
 
+dotenv:
+  allowEmptyValues: true
+
 book:
   title: "After Cognition: Human Value in the Age of Irreducibility"
   subtitle: "The Ástrós Paradox"
   author: "Magnús Smári Smárason"
-  date: "July 30, 2025"
+  date: "August 2025"
+  version: "Review copy version 2.0"
   
   chapters:
     - index.qmd
+    - parts/00-abstract.qmd
     - parts/00-frontmatter.qmd
     - parts/01-prologue.qmd
     - parts/02-introduction.qmd
@@ -20,8 +25,9 @@ book:
     - parts/07-conclusion.qmd
     - parts/08-appendices.qmd
 
-bibliography: resources/AC_references.bib
+bibliography: resources/After_cognition.bib
 csl: resources/apa-7.csl
+
 
 format:
   html:

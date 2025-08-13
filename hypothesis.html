@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Value Concentration Hypothesis - After Cognition</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 40px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background-color: white;
+            padding: 60px 60px 60px 60px;
+            border-radius: 12px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+        .hypothesis-box {
+            background-color: #ecf0f1;
+            padding: 20px;
+            border-left: 4px solid #3498db;
+            margin: 20px 0;
+            font-style: italic;
+        }
+        .domain {
+            background-color: #e8f4f8;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 5px;
+            border-left: 4px solid #2ecc71;
+        }
+        .domain h3 {
+            color: #27ae60;
+            margin-top: 0;
+        }
+        .implications {
+            background-color: #fdf6e3;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+        .thesis-info {
+            font-size: 0.9em;
+            color: #7f8c8d;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ecf0f1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>The Value Concentration Hypothesis</h1>
+        
+        <div class="hypothesis-box">
+            <strong>Core Hypothesis:</strong> As artificial intelligence systems become increasingly capable of performing cognitive tasks, human value will shift and concentrate in domains that are fundamentally irreducible to computational processes—domains not isomorphic to computational architectures.
+        </div>
+        
+        <h2>Context</h2>
+        <p>In the age of generative AI, we face a fundamental question: What remains uniquely and irreducibly human? This hypothesis proposes that rather than competing with AI in domains of computational efficiency, human value will concentrate in experiences and capacities that cannot be reduced to information processing.</p>
+        
+        <h2>The Value Shift: 2023-2030</h2>
+        <div style="background-color: #f8f9fa; padding: 40px; border-radius: 12px; margin: 40px 0;">
+            <canvas id="valueChart" width="1000" height="500"></canvas>
+        </div>
+        <!-- Legend moved below the chart -->
+        <div style="display: flex; justify-content: center; align-items: center; gap: 40px; margin-bottom: 10px; margin-top: -10px;">
+            <div style="display: flex; align-items: center; gap: 10px;">
+                <span style="display: inline-block; width: 32px; height: 6px; background-color: #e74c3c; border-radius: 3px;"></span>
+                <span style="color: #333; font-size: 1.1em;">Knowledge Work Value</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 10px;">
+                <span style="display: inline-block; width: 32px; height: 6px; background-color: #27ae60; border-radius: 3px;"></span>
+                <span style="color: #333; font-size: 1.1em;">Irreducible Human Value</span>
+            </div>
+        </div>
+        <p style="text-align: center; color: #7f8c8d; font-size: 0.9em; margin-top: 20px;">
+            <em>As AI capabilities expand, traditional knowledge work loses economic value while irreducible human capacities—presence, cohesion, and meaning—become the primary sources of value.</em>
+        </p>
+        <script>
+            const canvas = document.getElementById('valueChart');
+            const ctx = canvas.getContext('2d');
+            // Wider, higher-res canvas
+            const width = 1000;
+            const height = 500;
+            const padding = 80;
+            const chartWidth = width - 2 * padding;
+            const chartHeight = height - 2 * padding;
+            ctx.clearRect(0, 0, width, height);
+            ctx.fillStyle = '#f8f9fa';
+            ctx.fillRect(0, 0, width, height);
+            // Axes
+            ctx.strokeStyle = '#333';
+            ctx.lineWidth = 2.5;
+            ctx.beginPath();
+            ctx.moveTo(padding, padding);
+            ctx.lineTo(padding, height - padding);
+            ctx.lineTo(width - padding, height - padding);
+            ctx.stroke();
+            // Y-axis label
+            ctx.save();
+            ctx.translate(30, height/2);
+            ctx.rotate(-Math.PI/2);
+            ctx.font = '20px sans-serif';
+            ctx.fillStyle = '#333';
+            ctx.textAlign = 'center';
+            ctx.fillText('Economic Value', 0, 0);
+            ctx.restore();
+            // X-axis label
+            ctx.font = '20px sans-serif';
+            ctx.fillStyle = '#333';
+            ctx.textAlign = 'center';
+            ctx.fillText('Year', width/2, height - 30);
+            // Year labels
+            const years = [2023, 2024, 2025, 2026, 2027, 2028, 2029, 2030];
+            const yearStep = chartWidth / (years.length - 1);
+            ctx.font = '16px sans-serif';
+            years.forEach((year, i) => {
+                const x = padding + i * yearStep;
+                ctx.fillText(year, x, height - padding + 30);
+            });
+            // Value labels
+            const valueLabels = ['0%', '25%', '50%', '75%', '100%'];
+            const valueStep = chartHeight / (valueLabels.length - 1);
+            ctx.textAlign = 'right';
+            ctx.font = '16px sans-serif';
+            valueLabels.forEach((label, i) => {
+                const y = height - padding - i * valueStep;
+                ctx.fillText(label, padding - 15, y + 7);
+            });
+            // Grid lines
+            ctx.strokeStyle = '#e0e0e0';
+            ctx.lineWidth = 1.5;
+            for (let i = 1; i < valueLabels.length; i++) {
+                const y = height - padding - i * valueStep;
+                ctx.beginPath();
+                ctx.moveTo(padding, y);
+                ctx.lineTo(width - padding, y);
+                ctx.stroke();
+            }
+            // Smoother curve function (cubic Bezier)
+            function drawSmoothCurve(points, color) {
+                ctx.strokeStyle = color;
+                ctx.lineWidth = 4;
+                ctx.beginPath();
+                for (let i = 0; i < points.length; i++) {
+                    const x = padding + points[i][0] * yearStep;
+                    const y = height - padding - points[i][1] * chartHeight;
+                    if (i === 0) ctx.moveTo(x, y);
+                    else {
+                        // Cubic Bezier for smoothness
+                        const prev = points[i-1];
+                        const prevX = padding + prev[0] * yearStep;
+                        const prevY = height - padding - prev[1] * chartHeight;
+                        const midX = (prevX + x) / 2;
+                        ctx.bezierCurveTo(midX, prevY, midX, y, x, y);
+                    }
+                }
+                ctx.stroke();
+            }
+            // Knowledge work decline curve
+            const knowledgePoints = [
+                [0, 0.9], [1, 0.85], [2, 0.75], [3, 0.6], [4, 0.4], [5, 0.25], [6, 0.15], [7, 0.05]
+            ];
+            drawSmoothCurve(knowledgePoints, '#e74c3c');
+            // Irreducible value rise curve
+            const irreduciblePoints = [
+                [0, 0.2], [1, 0.25], [2, 0.35], [3, 0.5], [4, 0.65], [5, 0.78], [6, 0.87], [7, 0.95]
+            ];
+            drawSmoothCurve(irreduciblePoints, '#27ae60');
+            // Mark crossover point (2026)
+            const crossX = padding + 3 * yearStep;
+            const crossY = height - padding - 0.55 * chartHeight;
+            ctx.fillStyle = '#3498db';
+            ctx.beginPath();
+            ctx.arc(crossX, crossY, 12, 0, 2 * Math.PI);
+            ctx.shadowColor = '#3498db';
+            ctx.shadowBlur = 10;
+            ctx.fill();
+            ctx.shadowBlur = 0;
+            // Crossover annotation
+            ctx.fillStyle = '#2c3e50';
+            ctx.font = '18px sans-serif';
+            ctx.textAlign = 'center';
+            ctx.fillText('Crossover Point', crossX, crossY - 25);
+            // Legend
+            // Title
+            ctx.font = 'bold 24px sans-serif';
+            ctx.textAlign = 'center';
+            ctx.fillStyle = '#2c3e50';
+            ctx.fillText('The Great Value Inversion: 2023-2030', width/2, 50);
+        </script>
+        <p style="text-align: center; color: #7f8c8d; font-size: 0.9em; margin-top: 10px;">
+            <em>As AI capabilities expand, traditional knowledge work loses economic value while irreducible human capacities—presence, cohesion, and meaning—become the primary sources of value.</em>
+        </p>
+        
+        <h2>Three Domains of Irreducible Value</h2>
+        
+        <div class="domain">
+            <h3>1. Presence</h3>
+            <p><strong>The domain of embodied consciousness and qualia</strong></p>
+            <ul>
+                <li>First-person subjective experience</li>
+                <li>Embodied awareness and sensory immediacy</li>
+                <li>The phenomenological "what it's like" of consciousness</li>
+                <li>Direct, non-representational knowing</li>
+            </ul>
+        </div>
+        
+        <div class="domain">
+            <h3>2. Cohesion</h3>
+            <p><strong>The domain of intersubjective trust and community</strong></p>
+            <ul>
+                <li>Genuine interpersonal bonds and shared vulnerability</li>
+                <li>Community formation through mutual recognition</li>
+                <li>Trust built through embodied co-presence</li>
+                <li>Collective meaning-making and cultural transmission</li>
+            </ul>
+        </div>
+        
+        <div class="domain">
+            <h3>3. Meaning</h3>
+            <p><strong>The domain of narrative identity and self-authorship</strong></p>
+            <ul>
+                <li>Personal narrative construction and life story</li>
+                <li>Existential choice and authentic self-determination</li>
+                <li>Value creation through lived experience</li>
+                <li>Temporal integration of past, present, and future</li>
+            </ul>
+        </div>
+        
+        <div class="implications">
+            <h2>Key Implications</h2>
+            <ol>
+                <li><strong>Economic Transformation:</strong> The emergence of a "Cultivation Economy" focused on developing these irreducible human capacities rather than extracting value from computational tasks.</li>
+                <li><strong>Educational Reform:</strong> Shift from information transfer to capacity development in presence, cohesion, and meaning-making.</li>
+                <li><strong>Social Architecture:</strong> Design of institutions and practices that support the flourishing of irreducible human domains.</li>
+                <li><strong>Philosophical Reorientation:</strong> Move from viewing humans as information processors to recognizing our unique phenomenological and intersubjective nature.</li>
+            </ol>
+        </div>
+        
+        <h2>The VALOR Framework</h2>
+        <div style="background-color: #f3f4f6; padding: 25px; border-radius: 8px; border-left: 4px solid #3498db; margin: 30px 0;">
+            <h3 style="color: #2c3e50; margin-top: 0;">VALOR: A Framework for Life-Enhancing AI Governance</h3>
+            <p><strong>VALOR</strong> stands for:</p>
+            <ul style="list-style: none; padding-left: 0;">
+                <li style="margin-bottom: 15px;"><strong style="color: #3498db;">V</strong>erification - Continuous empirical assessment of actual impacts on human life-value domains</li>
+                <li style="margin-bottom: 15px;"><strong style="color: #3498db;">A</strong>lignment - Explicit prioritization of life-value enhancement over profit extraction</li>
+                <li style="margin-bottom: 15px;"><strong style="color: #3498db;">L</strong>egitimacy - Democratic participation by affected communities in AI governance decisions</li>
+                <li style="margin-bottom: 15px;"><strong style="color: #3498db;">O</strong>versight - Real-time monitoring by independent bodies with enforcement authority</li>
+                <li style="margin-bottom: 15px;"><strong style="color: #3498db;">R</strong>esponsibility - Clear liability chains with meaningful penalties for life-value degradation</li>
+            </ul>
+            <p style="margin-top: 20px; font-style: italic;">VALOR coordinates resistance to extractive AI deployment by integrating these five components into a self-reinforcing system. It prioritizes human augmentation over automation, based on evidence that 69.4% of workers want AI to free time for high-value work, while only 1% of AI companies address the tedious tasks workers actually want eliminated.</p>
+        </div>
+        
+        <h2>The Path Forward</h2>
+        <p>This hypothesis suggests not a retreat from technology but a rediscovery of what makes human experience irreplaceable. By understanding and cultivating these domains, we can create a future where human and artificial intelligence are complementary rather than competitive, each contributing their unique strengths to collective flourishing.</p>
+        
+        <div class="thesis-info">
+            <p><em>From "After Cognition: Human Value in the Age of Irreducibility" by Magnus Smári Magnússon</em></p>
+            <p>A philosophical thesis exploring the future of human value in the age of generative AI</p>
+        </div>
+    </div>
+</body>
+</html>

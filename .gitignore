@@ -39,6 +39,19 @@ docs/*.pdf
 .env
 .env.local
 
+# Python virtual environments
+venv/
+.venv/
+refrences/.venv/
+__pycache__/
+*.py[cod]
+
+# Playwright
+playwright/
+
+# Large files
+*.pdf
+
 /.quarto/
 node_modules
 .vercel

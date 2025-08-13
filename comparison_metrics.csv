@@ -1,0 +1,12 @@
+Section,Old_Word_Count,New_Word_Count,Percent_Change,Major_Additions,Callout_Boxes,Tables,Citations_Added
+00-frontmatter.qmd,253,120,-52.6,Streamlined format,0,0,0
+01-prologue.qmd,521,370,-29.0,Condensed and focused,0,0,0
+02-introduction.qmd,504,1613,+220.0,Midas paradox and methodology,5,0,10
+03-part-i.qmd,972,1944,+100.0,Stratified analysis and data,2,2,15
+04-part-ii.qmd,3574,5209,+45.8,Neuroscience and cross-cultural,6,1,20
+05-part-iii.qmd,2016,8065,+300.0,Economic models and LVDC expansion,5,4,30
+06-part-iv.qmd,2132,3712,+74.1,Case studies and validation,1,0,15
+07-conclusion.qmd,1644,3157,+92.0,Political implementation,2,0,10
+08-appendices.qmd,2996,2125,-29.1,Streamlined and focused,0,5,0
+00-executive-summary.qmd,0,758,New,Executive overview,0,0,0
+Total,14612,27073,+85.3,Major expansion and deepening,21,12,100

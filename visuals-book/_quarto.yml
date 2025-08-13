@@ -1,0 +1,55 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "After Cognition: Visual Companion"
+  subtitle: "All Figures, Tables, and Visual Elements"
+  author: "Magnús Már Smárason"
+  date: today
+  chapters:
+    - index.qmd
+    - part-i-visuals.qmd
+    - part-ii-visuals.qmd
+    - part-iii-visuals.qmd
+    - part-iv-visuals.qmd
+    - appendix-visuals.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-fold: true
+    code-tools: true
+    css: styles.css
+
+  pdf:
+    documentclass: report
+    papersize: a4
+    geometry:
+      - left=24mm
+      - right=24mm
+      - top=22mm
+      - bottom=24mm
+    number-sections: true
+    toc: true
+    toc-depth: 3
+    fig-pos: H
+    fig-cap-location: bottom
+    tbl-cap-location: top
+    keep-tex: true
+    include-in-header:
+      text: |
+        % Better typography and table control
+        \usepackage{booktabs}
+        \usepackage{array}
+        \usepackage{longtable}
+        \usepackage{tabularx}
+        \usepackage{adjustbox}
+        \usepackage{pdflscape}
+        \usepackage{microtype}
+        % Global table breathing room
+        \setlength{\extrarowheight}{2pt}
+        \renewcommand{\arraystretch}{1.15}

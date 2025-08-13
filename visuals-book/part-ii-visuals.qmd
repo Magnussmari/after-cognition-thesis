@@ -1,0 +1,50 @@
+# Part II: Lifeworld Cartography Visuals
+
+This chapter contains the core visual framework of the thesis - the Three Domains of Irreducible Human Value.
+
+## The Three Domains Framework
+
+### Figure 2.1 — The Three Domains of Irreducible Human Value
+
+![](images/three-domains-diagram.svg){width=100%}
+
+*At the intersection of Presence (embodied self), Cohesion (intersubjective we), and Meaning (narrative arc) lies the irreducible core of human experience that remains beyond computational replication.*
+
+::: {.callout-tip}
+This Venn diagram represents the thesis's central theoretical contribution. The overlapping areas indicate how these domains interpenetrate and reinforce each other in lived experience.
+:::
+
+## Domains Summary Table
+
+### Table 2.1 — Three Domains: Definitions, Indicators, Examples
+
+::: {.tbl-colwidths="22,38,40"}
+| **Domain** | **Operational Indicators (examples)** | **Everyday Examples** |
+|---|---|---|
+| Presence | Interoception (MAIA); sustained attention (MAAS/FFMQ); proprioceptive accuracy | Nurse sensing fever break; mechanic diagnosing by vibration; mindful walking |
+| Cohesion | Trust scale change; rupture–repair latency; reciprocity index | Sweat-lodge/choral resonance; "smoke break" ritual; conflict repair |
+| Meaning  | McAdams coherence; PTGI; purpose alignment | Reframing migration story; post-injury union safety leadership |
+:::
+*Indicators are illustrative and would require full psychometric development before use.*
+
+::: {.callout-note}
+## Measurement Note
+The operational indicators listed represent potential empirical approaches to validating these domains. Full psychometric development would be required before practical application.
+:::
+
+## Cultural Variations in Domain Expression
+
+While the three domains appear universal, their specific expressions vary across cultures:
+
+- **Western emphasis**: Individual presence, dyadic trust, personal narrative
+- **Ubuntu philosophy**: Collective presence, communal bonds, shared story
+- **Buddhist traditions**: Non-self awareness, compassionate connection, liberation narrative
+- **Indigenous worldviews**: Land-based presence, kinship networks, cyclical meaning
+
+## Key Insights from Part II Visuals
+
+1. **Interdependence**: The domains are not isolated capacities but mutually reinforcing aspects of human experience
+2. **Measurability**: While irreducible to computation, these domains can be empirically validated
+3. **Universality with Variation**: The framework captures human universals while allowing cultural specificity
+
+This visual framework provides the theoretical foundation for understanding where human value concentrates as AI commoditizes cognitive tasks.

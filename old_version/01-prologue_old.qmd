@@ -1,0 +1,23 @@
+# Prologue
+
+A paradox defines the present. Material progress accelerates, yet the societies that gained the most from it exhibit fatigue: precarious work, brittle discourse, and a crisis of meaning. We treat symptoms—the overdoses, the loneliness, the anxious classrooms—while the pathology remains unnamed.
+
+My training as a paramedic, later as a union leader, taught me to separate symptoms from systems. Emergencies rhyme: private tragedies reveal public failures. This thesis applies that diagnostic discipline to a different accelerant—the most powerful technology yet deployed at scale.
+
+The motive is not merely professional. I am a father of two. This document is for the world they will inherit and for the duties I cannot delegate. Those duties require clarity about a simple claim: as the economic value of computable tasks collapses, human value does not vanish; it concentrates in domains that computation, by its architecture, cannot under present architectures enter.
+
+The project began in 2024 as a ledger of harm: a 300-page atlas of incidents, impacts, and externalities. Necessary—but insufficient. A medic who only documents the mechanism of injury abandons the patient. In 2025, as models scaled and deployment outran analysis, a new diagnosis became unavoidable. The harms were not random scatter; they radiated from a collapsing core: the commoditization of cognition.
+
+This thesis emerges not from abstract theorizing but from moments when life revealed its irreducible[^1] depths: the split-second of reaching for my falling daughter; the flow state of descending an Icelandic mountain where thought becomes flesh; the collective dissolution during Beethoven's Ninth; the sacred darkness of a sweat lodge; the narrative forged from responding to my colleagues' deaths. Each experience marked a boundary where computation ends and being begins.
+
+This thesis replaces the catalog with a map. It argues that durable human value resides in the Lebenswelt—the lived world prior to and grounding all models. The map has three territories:
+
+- **Presence (the Embodied Self)**: the felt, mortal, situated intelligence of a body in a world, including qualia, proprioception, and wisdom formed under finitude.
+- **Cohesion (the Intersubjective We)**: trust, reciprocity, ritual, and moral judgment forged through vulnerability and shared context.
+- **Meaning (the Narrative Arc)**: self-authored purpose, the integration of loss, and the construction of a life story capable of orienting action.
+
+The method is paradoxical by design: use a maximally capable machine to chart what lies beyond it. Phase 1 probes failure modes where simulation breaks—phenomenal depth, non-transactional trust, moral ambiguity, authentic grief, awe. Phase 2 tests those boundaries empirically, comparing humans, AI, and mixed teams. Phase 3 develops cultivation protocols so individuals and institutions can invest in the capacities where value concentrates.
+
+This is not an argument against technology; it is an argument for a direction. We can let automation liquefy what makes us legible to markets, or we can deliberately price, teach, and protect the human territories that cannot be commoditized. I dedicate this work to my children—and to the duty, old as parenthood, to leave them a map worth following.
+
+[^1]: Here, 'irreducible' means not isomorphic to computation under present mainstream architectures (non-embodied, non-mortal, non-risk-bearing systems). This is a contingent, near-term engineering claim, not a metaphysical impossibility.

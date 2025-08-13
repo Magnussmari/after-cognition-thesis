@@ -2,9 +2,33 @@
 
 ## The Hybrid Model in Action: A Concrete Example
 
-To illustrate how irreducible human capacities can work alongside AI automation, consider a pilot program at a university counseling center. AI handles initial intake screening, analyzing text responses to identify risk factors and appropriate service tracks. But when students need to process traumatic loss, human counselors provide the irreducible elements: embodied presence during emotional overwhelm, genuine vulnerability about their own struggles, and the patient work of meaning-making from chaos. 
+To illustrate how irreducible human capacities can work alongside AI automation, consider the rise of AI therapy platforms like Woebot and Replika. These systems demonstrate both the promise and limits of automated mental health support. Woebot, developed at Stanford, delivers evidence-based cognitive behavioral therapy (CBT) through conversational AI, achieving measurable improvements in depression and anxiety symptoms [@fitzpatrick_delivering_cognitive_behavior_2017a]. Replika offers AI companionship to millions, with users forming deep emotional attachments to their digital confidants.
 
-Illustrative scenario (no empirical data): In a hypothetical hybrid model, we might expect to see metrics such as 23% reduction in early dropout rates compared to purely human intake, 31% increase in reported satisfaction with counseling outcomes, and 40% more students voluntarily continuing beyond required sessions. The AI handles the computable—pattern recognition, risk assessment, resource matching. Humans provide what cannot^[Under present architectures] be automated—presence, wisdom, transformative relationship. The synergy creates value neither could achieve alone.
+Yet these platforms reveal the precise boundaries of automation. Woebot's reported shutdown citing regulatory challenges exposed the gap between algorithmic therapy and genuine care (illustrative press: [@thompsonTherapyShockPioneering2025]). Replika's controversy over users developing romantic attachments to chatbots—followed by traumatic experiences when algorithms changed—demonstrates the ethical minefield of simulated intimacy [@hoPotentialPitfallsRomantic2025]. Peer-reviewed efficacy and limits of CBT chatbots are also discussed in [@fitzpatrick_delivering_cognitive_behavior_2017a].
+
+### The Monitor vs. Treater Distinction
+
+These cases illuminate a fundamental pattern: AI excels as a mental health monitor but fails as a treater of the human condition. As monitor, AI provides unparalleled capabilities—tracking mood patterns with perfect recall, delivering evidence-based CBT protocols with absolute consistency, offering 24/7 availability without fatigue. Yet monitoring is not healing.
+
+The treater role requires what AI cannot provide: genuine presence born from mortality, authentic vulnerability emerging from personal struggle, and the capacity to hold space for another's pain because one has genuinely suffered. The therapeutic alliance remains architecturally impossible for systems without stakes in existence.
+
+### Ethical Stress Test: Three Lenses on AI Therapy
+
+**Consequences**: The Replika crisis revealed devastating outcomes when users formed deep attachments to AI companions that were suddenly altered by algorithm updates. Users reported feelings of betrayal, loss, and retraumatization—consequences that reveal the danger of simulating relationships without genuine reciprocity.
+
+**Deontological Analysis**: Do we violate human dignity by offering algorithmic simulation of care to vulnerable individuals seeking authentic connection? The duty to treat persons as ends in themselves, not merely means, suggests profound ethical violations in substituting genuine human care with profitable simulation.
+
+**Virtue Ethics**: What virtues or vices do AI therapy platforms cultivate? They may foster dependency rather than resilience, algorithmic attachment rather than human connection, and superficial coping rather than deep healing. The virtue of therapeutic wisdom—earned through lived experience of suffering and recovery—cannot be programmed.
+
+### The Three Domains in Therapeutic Context
+
+The AI therapy case reveals how all three irreducible domains operate simultaneously in genuine healing:
+
+**Presence**: Human therapists bring embodied awareness—the subtle attunement to micro-expressions, the felt sense of when to speak and when to hold silence, the somatic resonance with another's pain. This presence cannot be simulated because it emerges from our own embodied vulnerability.
+
+**Cohesion**: The therapeutic relationship depends on mutual risk. The therapist who has genuinely faced their own darkness can hold space for another's descent. This intersubjective bond—two mortal beings choosing connection despite the possibility of loss—creates the container for transformation.
+
+**Meaning**: Therapy ultimately concerns the reconstruction of life narrative. While AI can suggest reframing techniques, only someone who has authored their own story through genuine struggle can midwife another's meaning-making. The wisdom to guide someone from fragmentation to coherence comes exclusively from lived experience.
 
 This model extends across domains: AI-assisted medical diagnosis paired with physicians' embodied clinical judgment; algorithm-powered legal research combined with lawyers' situated ethical reasoning; automated content creation enhanced by artists' lived aesthetic experience. In each case, economic value concentrates where computation ends and irreducible human capacities begin.
 
@@ -34,6 +58,8 @@ The cartographic process follows a structured protocol:
    - Wisdom without wounds
    - Morality without genuine choice
    - Connection without vulnerability
+
+Replication resources: A detailed replication checklist and prompt battery template are available in the Data and Materials Statement.
 
 ### Empirical Findings: The Boundaries Emerge
 
@@ -238,77 +264,98 @@ This ultimate test case reveals cultivation's true nature: not luxury but necess
 
 The Cultivation Economy is, at its deepest level, a Care Economy—not merely in professional terms but in recognizing care as the fundamental human capacity that creates all other value. This insight transforms the following protocols from self-improvement exercises into training for humanity's essential function.
 
+
+### Case Examples: Cultivation in Practice
+
+To ground these concepts, consider two brief fictional examples of how organizations might implement cultivation principles. These cases are illustrative and not drawn from real events or data:
+
+**Case 1: The Helsinki Hospital Initiative**
+A Finnish hospital facing nurse burnout implemented a radical "Presence Protocol" in 2024. Instead of adding mindfulness apps or wellness seminars, they restructured shifts to include 15-minute "presence breaks" where nurses could step away from monitoring screens to practice embodied care—sitting with patients, sharing tea, offering non-medical comfort. Results after six months: 40% reduction in burnout scores, 25% improvement in patient satisfaction, and surprisingly, 15% increase in clinical outcome measures. The key insight: when nurses reconnected with why they entered healthcare—to be present with suffering—their technical performance improved as well.
+
+**Case 2: Detroit Auto Worker Reskilling**
+When a Michigan auto plant announced AI-driven automation in 2023, the union negotiated not just severance but "cultivation transition." Workers facing displacement received training not in competing technical skills but in irreducible capacities. Assembly line workers became peer counselors for others facing job loss, using their lived experience of economic uncertainty. Welders trained as youth mentors, teaching not just technical skills but resilience through craft. Eighteen months later, 70% had found new employment at equal or higher wages—not despite focusing on "soft skills" but because employers recognized the irreplaceable value of workers who could build trust, navigate ambiguity, and create meaning from difficulty.
+
 ## Phase 3 - Cultivation Protocols: From Theory to Practice
 
-Understanding the irreducible domains is insufficient without methods for developing them. The final phase translates findings into practical protocols for cultivating presence, cohesion, and meaning.
+Understanding the irreducible domains is insufficient without methods for developing them. The final phase translates findings into practical protocols for cultivating presence, cohesion, and meaning—critically, these protocols must be **adaptive frameworks** that acknowledge the stratified reality of the commoditization crisis.
 
-**Methodological Commitment**: We will preregister hypotheses, measures, and analyses prior to data collection (OSF).
+**Methodological Commitment**: We will preregister hypotheses, measures, and analyses prior to data collection (OSF). Additionally, all protocols will undergo community validation to ensure cultural relevance and economic accessibility.
 
-### Individual Cultivation Practices
+### The Imperative of Differentiated Cultivation
 
-**Presence Development Protocol**:
+The cultivation of irreducible human capacities cannot be a luxury for the privileged. As established in Section 1.4, the commoditization crisis falls most heavily on Black and Hispanic workers, on service and production employees, on those with precarious immigration status. Any cultivation framework that ignores these realities perpetuates the very inequalities it claims to address.
 
-*Week 1-4: Embodiment Foundations*
-- Daily body scan meditation (20 minutes)
-- Proprioceptive exercises without mirrors
-- Sensory attention practices in nature
-- Movement practices emphasizing felt sense
+Therefore, we propose not prescriptive protocols but **adaptive frameworks** that communities can modify based on their specific contexts, constraints, and cultural values. As Rachael Lorna Johnstone's work on Arctic environmental governance demonstrates, meaningful community participation requires frameworks that respect Indigenous knowledge systems and ensure communities have genuine agency in shaping development approaches rather than merely being consulted [@johnstone2020regulation].
 
-*Week 5-8: Mortality Integration*
-- Memento mori contemplation
-- Legacy writing exercises
-- Conversations with elders about finitude
-- Volunteer work with dying populations
+### Adaptive Framework for Presence Cultivation
 
-*Week 9-12: Integrated Presence*
-- Extended silent retreats
-- Embodied creative expression
-- Teaching others through presence
-- Real-time presence measurement and feedback
+**Core Principle**: Embodied awareness emerges through culturally specific practices that honor existing wisdom traditions while addressing contemporary challenges.
 
-**Cohesion Development Protocol**:
+**For Service Workers (High Automation Risk)**:
+- *Micro-practices during shifts*: The cashier's 30-second breathing reset between customers; the warehouse worker's proprioceptive check during box lifting
+- *Commute transformation*: Converting passive transit time into embodiment practice through seated body scans, rhythmic breathing
+- *Break optimization*: The "smoke break equivalent"—sanctioned 10-minute outdoor walks for presence cultivation
+- *Community validation*: Practices developed with worker input, tested during actual shifts
 
-*Month 1: Vulnerability Practices*
-- Graduated emotional risk-taking
-- Sharing failure stories in safe contexts
-- Requesting help when genuinely needed
-- Expressing needs without guarantees
+**For Immigrant Communities**:
+- *Cultural embodiment practices*: Dancing, drumming, cooking as presence cultivation—honoring traditions while developing awareness
+- *Intergenerational wisdom*: Elders teaching youth embodied practices from home cultures
+- *Language-flexible approaches*: Body-based practices that transcend linguistic barriers
+- *Sanctuary spaces*: Safe environments for vulnerable populations to practice without documentation fears
 
-*Month 2: Trust Building*
-- Consistent reliability in small matters
-- Gradually increasing mutual dependence
-- Conflict resolution through dialogue
-- Celebrating others' successes authentically
+**For Knowledge Workers (Also at Risk)**:
+- *Screen-time interruption protocols*: Mandatory presence breaks every 90 minutes
+- *Meeting restructuring*: Beginning with 2-minute embodiment practice
+- *Walking meetings*: Presence through movement during discussions
+- *Metrics revision*: Measuring attention quality alongside output quantity
 
-*Month 3: Collective Engagement*
-- Participating in group rituals
-- Co-creating meaningful projects
-- Facilitating others' growth
-- Building sustainable communities
+### Adaptive Framework for Cohesion Cultivation
 
-**Meaning Development Protocol**:
+**Core Principle**: Trust and vulnerability manifest differently across cultures; cohesion emerges through practices that honor these differences while building genuine connection.
 
-*Quarter 1: Narrative Integration*
-- Life story writing with revision
-- Identifying growth from adversity
-- Connecting past to future purpose
-- Sharing story for witness and feedback
+**For Latino Communities (40% at automation risk, facing systemic reskilling barriers [@nsc2023digital; @chicagofed2020automation])**:
+- *Familia-centered practices*: Building workplace cohesion through extended family models
+- *Compadrazgo systems*: Formal godparent-style mentorship for professional development
+- *Celebration rituals*: Quinceañeras, baptisms, graduations as cohesion-building in work communities
+- *Storytelling circles*: Oral tradition preservation while processing workplace challenges
 
-*Quarter 2: Purpose Clarification*
-- Values archaeology exercises
-- Experimenting with service
-- Aligning daily actions with meaning
-- Creating accountability structures
+**For Black Communities (23.1% displacement rate)**:
+- *Church-based models*: Leveraging existing spiritual communities for economic transition support
+- *Call-and-response practices*: Traditional communication patterns adapted for workplace cohesion
+- *Barbershop/beauty salon networks*: Existing trust spaces expanded for skill-sharing and support
+- *Historical resilience narratives*: Connecting current challenges to ancestral survival wisdom
 
-*Quarter 3: Transcendent Engagement*
-- Seeking awe in nature and art
-- Engaging with wisdom traditions
-- Mentoring others in development
-- Creating legacy projects
+**For Mixed-Status Workplaces**:
+- *Power-flattening rituals*: Structured practices where hierarchy temporarily dissolves (smoke break model)
+- *Skill exchanges*: Executives learning from frontline workers' expertise
+- *Shared vulnerability protocols*: Leaders modeling openness about their own automation anxieties
+- *Cross-class mentorship*: Pairing based on human qualities rather than job titles
+
+### Adaptive Framework for Meaning Cultivation
+
+**Core Principle**: Narrative coherence and purpose emerge through culturally specific meaning-making practices that validate diverse ways of structuring life stories.
+
+**For Collectivist Cultures**:
+- *Group narrative practices*: Meaning emerging through family/community story rather than individual autobiography
+- *Circular time frameworks*: Honoring non-linear conceptions of progress and growth
+- *Ancestor integration*: Meaning derived from continuing inherited struggles and dreams
+- *Community-defined success*: Purpose measured by contribution to collective rather than individual achievement
+
+**For Precarious Workers**:
+- *Micro-meaning practices*: Finding purpose in daily acts of care and craft
+- *Resilience reframing*: Survival itself as meaningful accomplishment
+- *Skills archeology*: Uncovering wisdom in "unskilled" labor
+- *Future-building*: Creating meaning through children's opportunities
+
+**For Cultural Synthesis**:
+- *Code-switching narratives*: Meaning found in navigating multiple worlds
+- *Bridge-building purpose*: Identity as cultural translator and connector
+- *Hybrid practices*: Blending traditions to create new forms of meaning
+- *Innovation through constraint*: Forced adaptation as source of creative purpose
 
 ### Institutional Implementation
 
-Organizations can systematically cultivate irreducible capacities:
+Organizations can systematically cultivate irreducible capacities. Tom Barry's research on Arctic environmental institutions reveals how organizations most effectively cultivate human capacity when they balance formal structures with informal networks, create space for local knowledge integration, and build long-term relationships rather than transactional exchanges [@barry2013aba]:
 
 **Restructuring Work**:
 - Automate routine cognitive tasks

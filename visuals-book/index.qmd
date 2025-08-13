@@ -1,0 +1,21 @@
+# Preface {.unnumbered}
+
+This companion volume collects all visual elements from "After Cognition: Human Value in the Age of Irreducibility" for easy reference and improved rendering quality. 
+
+The visuals are organized by the parts of the main manuscript:
+
+- **Part I**: Economic tables and displacement data
+- **Part II**: The Three Domains framework and summary tables  
+- **Part III**: Market cases, LVDC examples, and cultivation practices
+- **Part IV**: Implementation frameworks and case examples
+- **Appendix**: Additional visual materials
+
+Each visual element is presented with its original context and caption for reference.
+
+## How to Use This Companion
+
+1. **For Quick Reference**: Use the table of contents to jump directly to specific visuals
+2. **For Presentations**: All images are available in high-quality formats in the `images/` folder
+3. **For Further Analysis**: Tables are presented in clean, copyable formats
+
+All visual elements maintain their original numbering and references from the main manuscript.

@@ -1,0 +1,53 @@
+# Part I: Economic and Existential Imperative Visuals
+
+This chapter contains all tables and visual elements from Part I of the main manuscript.
+
+## Economic Model Comparison
+
+### Table 1.1 — Traditional SaaS vs AI/COGSware Economics
+
+::: {.tbl-colwidths="24,38,38"}
+| **Dimension**       | **Traditional SaaS**          | **AI/COGSware**         |
+|---------------------|------------------------------|-------------------------|
+| Cost Structure      | Fixed infrastructure         | Variable compute        |
+| Gross Margins       | 80–90%                        | 50–70%                  |
+| Pricing Model       | Per seat/month                | Per token/query         |
+| Scaling             | **Near-zero marginal cost**   | **Linear compute costs**|
+:::
+*Economic comparison of Traditional SaaS vs AI/COGSware ecosystems.*
+
+::: {.callout-important}
+This table illustrates the shift from fixed-cost software to variable-cost AI computation with direct effects on margins and value capture.
+:::
+
+
+
+## Stratified Reality of Displacement
+
+### Table 1.2 — Stratified Displacement Snapshot (Illustrative)
+
+::: {.tbl-colwidths="25,30,20,25"}
+| **Group / Domain**    | **Indicator**                         | **Approx. Magnitude**   | **Source**                       |
+|-----------------------|---------------------------------------|-------------------------|----------------------------------|
+| Hispanic workers      | High-risk occupations overrepresentation | 22 of top 30           | [@baboolall2018automation]       |
+| Hispanic workers (6 states) | High automation-risk workers         | 7.1 M (≈ 40% workforce) | [@dominguez2020latinos]          |
+| Black workers         | Displacement rate (potential)         | ≈ 23.1%                 | [@cook2019future]                |
+| White workers         | Displacement rate (potential)         | ≈ 22.4%                 | [@cook2019future]                |
+| Surveillance bias     | Wrongful arrests via facial recognition | Predominantly Black men (cases) | [@aclu2024surveillance] |
+| Reskilling barrier    | Lower retraining participation        | Qualitative disadvantage| [@nsc2023digital; @urban2023jobquality] |
+:::
+*Illustrative, heterogeneous sources; magnitudes are not directly comparable across methodologies.*
+
+
+::: {.callout-warning}
+This data reveals how the commoditization crisis falls disproportionately on already marginalized communities. Any proposed solutions must address these disparities directly.
+:::
+
+
+## Key Insights from Part I Visuals
+
+1. **Economic Inversion**: The shift from fixed to variable costs fundamentally changes the economics of cognitive work
+2. **Unequal Impact**: Automation displacement follows existing patterns of inequality
+3. **Systemic Nature**: The crisis is not merely technological but deeply social and economic
+
+These visuals establish the empirical foundation for the Value Concentration Hypothesis developed in subsequent parts.

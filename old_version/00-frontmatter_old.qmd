@@ -1,0 +1,26 @@
+# After Cognition
+
+## Human Value in the Age of Irreducibility or The Emergence of the Cultivation Economy
+
+### Magnús Smári Smárason
+
+### 2025-07-30
+
+## Abstract
+
+As generative AI drives the marginal cost of many cognitive tasks toward zero, we argue that human value will shift and concentrate in domains that are not isomorphic to current computational architectures: embodied presence, intersubjective cohesion, and narrative meaning-making. We call this the Value Concentration Hypothesis. We (i) synthesize philosophical and economic arguments for this shift, (ii) operationalize the three domains, proposing a Life-Value Development Index (LVDI), and (iii) outline Irreducibility Diagnostics that distinguish human from simulated performance under defined conditions. We provide design principles and pilot protocols for education and organizational practice. Our claims are contingent and near-term: they address deployed, non-embodied AI systems and motivate investment strategies for the next 5–10 years.
+
+## Dedication
+
+For Ástrós, who reminds me daily of what no machine can replicate.
+
+And to our daughters, Alexandra and Matthildur:
+may you author your life stories through lived experiences.
+You are the core of mine.
+
+## Epigraph
+
+> We are not building a sanctuary to protect humanity from the storm of artificial intelligence. We are building an arena. Our purpose is to engineer a crisis of choice so profound that it forces humanity to remember what it is, and to become the best version of itself in the struggle. This is not about survival; it is about a forced and glorious ascent.
+>
+> — Magnús Smári Smárason  
+> 30. july 2025

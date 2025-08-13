@@ -4,56 +4,7 @@
 
 **By Magnús Smári Smárason**
 
-*July 30, 2025*
+*Review copy version 2.0*  
+*August 2025*
 
----
 
-## Abstract
-
-This thesis investigates how generative AI's commoditization of cognitive labor transforms rather than destroys human value. Through phenomenological analysis and empirical investigation, I propose the **Value Concentration Hypothesis**: as artificial intelligence handles computable tasks, economic and existential value concentrates in three irreducible human domains—Presence (embodied intelligence), Cohesion (intersubjective bonds), and Meaning (narrative identity).
-
-The investigation employs the **Ástrós Paradox**: using frontier AI systems to reveal, by their most capable failures, the human capacities they cannot inhabit—thus increasing the value of those capacities and showing where to invest in cultivation. This paradoxical method maps the boundaries of the irreducible while providing practical frameworks for human development in an AI-saturated world.
-
-Key contributions include: (1) theoretical mapping of irreducible human value domains, (2) the Life-Value Development Index (LVDI) for measuring growth in these capacities, (3) empirical protocols distinguishing authentic human engagement from sophisticated simulation, and (4) cultivation practices for systematic development of irreducible capacities.
-
-The thesis concludes with practical guidance for individuals, organizations, and societies navigating the transition to what I term the "Cultivation Economy"—where human development in irreducible domains becomes both economically essential and existentially urgent.
-
-**Keywords**: artificial intelligence, human value, phenomenology, embodiment, intersubjectivity, meaning-making, cultivation, irreducibility
-
----
-
-## Table of Contents
-
-**Front Matter**
-- Dedication
-- Epigraph
-
-**Prologue: The Axiological Engineer**
-
-**Introduction**
-
-**Part I: The Economic and Existential Imperative**
-- Defining the Commoditization Crisis
-
-**Part II: A Lifeworld Cartography**
-- Mapping the Territories of Irreducible Value
-
-**Part III: The Value Concentration Gradient**
-- A New Economic Model for Human Flourishing
-
-**Part IV: The Paradoxical Method in Practice**
-- A Framework for Investigation
-
-**Conclusion: A Practical Guide for Human Development**
-
-**Epilogue: We Are the Guardians at the Gate**
-
-**Appendices**
-- A: The Baruchello Loop — A Meditation on Irreducibility
-- B: Emotional Prompting Protocol
-
-**Acknowledgements**
-
----
-
-*This work is dedicated to the irreducible human experience and to all who will inherit the world we are shaping.*

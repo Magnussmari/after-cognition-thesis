@@ -1,0 +1,102 @@
+# Appendix A: Technical Economic Modeling and LVDC Framework
+
+## A1. Formal Sketch and Testable Predictions
+
+::: {.callout-note}
+**Technical Model**
+We outline a minimal two-sector model capturing the value shift from computable cognition to irreducible human capacities:
+
+- Sectors: C (Computable cognition) and H (Human irreducible). Output prices are \(p_C\) and \(p_H\).
+- Technology: AI progress reduces \(p_C\) via lower marginal cost; \(p_H\) depends on depth of presence/cohesion/meaning and is capacity-constrained.
+- Preferences: Utility \(U = u(Q_C, Q_H; \sigma)\) where \(\sigma \in [0,1]\) is an authenticity parameter (marginal utility weight on authenticated human engagement). \(\partial U/\partial Q_H\) increases in \(\sigma\) and in demonstrated depth (presence, cohesion, meaning).
+- Supply constraints: H is bounded by time, mortality, and relationship development (non-fungible), so \(\epsilon_{Q_H,p_H}\) is low.
+
+Comparative statics under AI progress (\(dp_C<0\)):
+- Demand substitution raises \(Q_C\), but for \(\sigma>0\) and non-fungibility, \(p_H\) and \(Q_H\) can increase (authenticity premium) even as \(p_C\) falls.
+- Complementarity in hybrid teams (AI monitors, humans treat) increases effective productivity of H without diluting authenticity, shifting income shares toward H in roles with verifiable depth.
+
+**Testable predictions:**
+- P1: As proxy measures of AI capability rise, willingness-to-pay for authenticated human services (therapy, live performance, bespoke education) rises, controlling for income and quality.
+- P2: Hybrid human–AI teams outperform AI-only and human-only on outcomes requiring transformation (healing, learning, cohesion), with role alignment (AI monitor, human treater) mediating effect sizes.
+- P3: Markets with credible authenticity signals (certifications with anti-gaming design; relational continuity) exhibit higher \(p_H\) and lower variance in outcomes.
+- P4: Occupations with higher measured Presence/Cohesion/Meaning (LVDC profiles) experience greater wage resilience post-AI adoption.
+:::
+
+### Evidence for the model’s testable predictions
+
+**P1 – Authenticity premium (WTP rises for verified human work/services)**
+- Bellaiche et al. (2023). Humans versus AI: whether and why we prefer human-created compared to AI-created artwork. Cognitive Research. [OA, doi:10.1186/s41235-023-00499-6]
+- Horton et al. (2023). Bias against AI art can enhance perceptions of human artistry. Sci Rep. [OA, doi:10.1038/s41598-023-45202-3]
+- Schrobback et al. (2023). Food credence attributes framework. Foods. [OA, doi:10.3390/foods12020389]
+
+**P2 – Hybrid human–AI teams outperform on transformation-type outcomes**
+- Chanda et al. (2024). Deep learning assistance enhances radiologist performance in lung cancer screening. Nat Commun. [OA, doi:10.1038/s41467-023-43095-4]
+- Liang et al. (2024). Human–AI collaboration in medical diagnosis: a systematic review and meta-analysis. NPJ Digit Med. [OA, doi:10.1038/s41746-024-01049-0]
+
+**P3 – Markets with credible authenticity signals show higher \(p_H\) and lower outcome variance**
+- Pereira Gray et al. (2018). Continuity of care and mortality: systematic review. BMJ Open. [OA, doi:10.1136/bmjopen-2017-021161]
+- Baker et al. (2020). Primary care continuity and patient mortality. Br J Gen Pract. [OA, doi:10.3399/bjgp20X712289]
+
+**P4 – Wage resilience where Presence/Cohesion/Meaning are salient (social/relational task content)**
+- Deming (2017). The growing importance of social skills. QJE. [OA, doi:10.1093/qje/qjx022]
+- Autor & Dorn (2013). Low-skill service jobs and polarization (non-routine interpersonal tasks). AER. [OA, doi:10.1257/aer.103.5.1553]
+
+---
+
+## A2. LVDC Framework, Validation, and Governance
+
+::: {.callout-note}
+**Life-Value Development Compass (LVDC)**
+- Full theoretical structure, subscales, and psychometric grounding
+- Validation and governance plan
+- Normative instrument safeguards
+- Cultural adaptation and validation methodology
+- Table 3.1: Illustrative LVDC Sample Items
+:::
+
+### Psychometric standards and cross-cultural validation
+- Mokkink et al. (2024). Updated COSMIN guideline for systematic reviews of PROMs. Qual Life Res. [OA, doi:10.1007/s11136-024-03761-6]
+- Flückiger et al. (2020). Alliance–outcome association (meta-analytic methods with covariate adjustment). Psychother Res. [OA, doi:10.1080/10503307.2020.1729446]
+- Paap et al. (2022). Measurement properties of the Working Alliance Inventory. Front Psychol. [OA, doi:10.3389/fpsyg.2022.945294]
+
+---
+
+## A3. Toward Non-Extractive Economic Models
+
+::: {.callout-note}
+Universal Basic Services, worker ownership, reparative economics, gift economy zones, and regulatory frameworks
+:::
+
+### Key references
+- Portes, Reed & Percy (2017). Social prosperity for the future: A proposal for UBS. UCL IGP Working Paper. [OA, doi:10.14324/000.wp.10080175]
+- Coote, Kasliwal & Percy (2019). UBS: Theory and Practice—Literature review. UCL IGP. [OA, doi:10.14324/000.wp.10080177]
+- Gough (2020). The Case for UBS. LSE Public Policy Review. [OA, doi:10.31389/lseppr.12]
+- O’Boyle, Patel & Gonzalez-Mulé (2016). Employee ownership and firm performance: meta-analysis. Hum Resour Manag J. [OA, doi:10.1111/1748-8583.12115]
+
+---
+
+## A4. Market Case 2: Boutique Therapy vs. AI Chatbots
+
+::: {.callout-note}
+Full details and evidence
+:::
+
+### Therapy alliance, presence, and outcomes
+- Flückiger et al. (2020). Alliance–outcome link (meta-analytic methods). Psychother Res. [OA, doi:10.1080/10503307.2020.1729446]
+- Mercadal-Rotger et al. (2022). Therapeutic alliance in online vs F2F psychological treatment. JMIR Ment Health. [OA, doi:10.2196/36775]
+
+### Digital vs human-guided CBT (comparative effectiveness and guidance effects)
+- Andersson et al. (2014). Guided ICBT vs face-to-face CBT: meta-analysis. Behav Res Ther. [OA, doi:10.1016/j.brat.2014.07.021]
+- Karyotaki et al. (2021). Guided vs unguided iCBT: IPD network meta-analysis. JAMA Psychiatry. [OA, doi:10.1001/jamapsychiatry.2020.3607]
+
+### Chatbots (AI-only) effectiveness
+- Fitzpatrick et al. (2017). Woebot RCT (depression/anxiety symptoms). JMIR Ment Health. [OA, doi:10.2196/mental.7785]
+- Klos et al. (2021). AI chatbot for anxiety/depression: RCT (Tess). JMIR Form Res. [OA, doi:10.2196/20678]
+
+### Adherence & cost-effectiveness
+- van Ballegooijen et al. (2014). Adherence: guided iCBT vs face-to-face. PLOS ONE. [OA, doi:10.1371/journal.pone.0100674]
+- Lundström et al. (2022). Cost-effectiveness: therapist-guided & unguided ICBT vs F2F. JAMA Netw Open. [OA, doi:10.1001/jamanetworkopen.2022.8002]
+
+---
+
+*For full technical details, see the original Part III. This appendix contains all formal modeling, validation plans, and extended case studies referenced in the main text.*

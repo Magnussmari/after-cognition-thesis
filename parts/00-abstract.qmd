@@ -1,0 +1,13 @@
+# Abstract {.unnumbered}
+
+This thesis examines how artificial intelligence's commoditization of cognitive labor paradoxically concentrates human value in irreducible domains: embodied presence, intersubjective cohesion, and narrative meaning. As AI drives the marginal cost of computational tasks toward zero, capacities grounded in mortality, vulnerability, and self-authorship command increasing premiums—not despite but because of their resistance to algorithmic replication.
+
+Drawing on phenomenology, labor economics, and neuroscience, I develop the Value Concentration Hypothesis: human worth does not vanish under automation but migrates to territories that computation cannot enter. Using frontier AI systems to map their own limitations—the Ástrós Paradox—the work provides both theoretical framework and practical protocols for navigating this transformation.
+
+The analysis reveals that irreducibility emerges not from complexity but from architectural constraints: AI lacks embodiment, mortality, and genuine stakes. These absences create permanent boundaries around human capacities that require lived experience, mutual risk, and temporal existence. Economic data confirms growing wage premiums for roles requiring these irreducible qualities, while psychological research validates their measurement and development.
+
+The thesis proposes a Cultivation Economy that systematically develops rather than extracts these human capacities. This includes workplace protocols for presence cultivation, educational reforms emphasizing embodied wisdom, and policy frameworks supporting human development over mere productivity. The Life-Value Development Compass provides a theoretical foundation for future empirical validation, while discriminative tests distinguish authentic capacity from sophisticated simulation.
+
+This work offers urgent guidance for individuals, organizations, and policymakers navigating humanity's AI transformation. The commoditization crisis, properly understood, becomes an opportunity to remember and develop what makes us most deeply human. The question is not whether this transformation will occur, but whether we will shape it consciously.
+
+**Keywords:** artificial intelligence, human value, phenomenology, labor economics, irreducibility, cultivation economy
