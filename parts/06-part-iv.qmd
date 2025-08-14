@@ -10,6 +10,8 @@ Yet these platforms reveal the precise boundaries of automation. Woebot's report
 
 These cases illuminate a fundamental pattern: AI excels as a mental health monitor but fails as a treater of the human condition. As monitor, AI provides unparalleled capabilities—tracking mood patterns with perfect recall, delivering evidence-based CBT protocols with absolute consistency, offering 24/7 availability without fatigue. Yet monitoring is not healing.
 
+This "Monitor vs. Treater" distinction is not merely a theoretical model; it is the explicit operational logic now being adopted by major government bodies. The UK's AI Action Plan for Justice perfectly illustrates this division of labor. It champions AI for monitoring tasks: using "transcription tools that allow probation officers to focus on higher-value work," improving "scheduling" of prison capacity, and enhancing "search" functions. Simultaneously, it protects the human role in treating, stating that "AI should support, not substitute, human judgment" and must enable staff to deliver justice with "greater empathy and care." This is a direct, institutional recognition of the boundary between the computable and the irreducible [@AIActionPlan].
+
 The treater role requires what AI cannot provide: genuine presence born from mortality, authentic vulnerability emerging from personal struggle, and the capacity to hold space for another's pain because one has genuinely suffered. The therapeutic alliance remains architecturally impossible for systems without stakes in existence.
 
 ### Ethical Stress Test: Three Lenses on AI Therapy

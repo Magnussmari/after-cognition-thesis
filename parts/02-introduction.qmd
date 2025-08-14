@@ -12,6 +12,8 @@ The solution remains what it always was: to wash our hands in the river Pactolus
 
 This thesis examines a fundamental transformation: as artificial intelligence commoditizes cognitive labor, human value concentrates in domains that are architecturally irreducible to computation. This **Value Concentration Hypothesis** reframes our response to AI from defensive retreat to strategic cultivation.
 
+This is not merely a theoretical crisis; it is a reality now being confronted at the highest levels of government. As the UK's Ministry of Justice declared in its landmark 2025 AI Action Plan, the primary opportunity of AI is to "free up professional time... allowing staff to focus on meaningful interactions and deliver justice with greater empathy and care"—a direct policy acknowledgment that as computational tasks are automated, the core value resides in irreducible human capacities [@AIActionPlan].
+
 The investigation unfolds across four movements:
 
 **Part I** diagnoses the economic reality. Generative AI functions as a general-purpose technology, improving exponentially, pervading every information-intensive domain, spawning complementary innovations. The commoditization of cognitive work is not a future threat but a present reality, creating unprecedented challenges while revealing unexpected opportunities.

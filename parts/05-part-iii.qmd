@@ -394,6 +394,8 @@ This hybrid model resolves the market contradiction by contextualizing it within
 
 As value concentrates in irreducible domains, a new economy emerges around cultivating these capacities. This "cultivation economy" differs from the knowledge economy in fundamental ways:
 
+While the concept of a "Cultivation Economy" may seem abstract, its core tenets are already being operationalized in public policy. The UK's AI Action Plan for Justice, for example, dedicates one of its three strategic pillars to "Invest in our people and partners." This is not a peripheral concern but a central pillar of their strategy, encompassing investments in "talent, training and proactive workforce planning to accelerate AI adoption and transform how we work." This represents a nascent, state-level commitment to the principle of cultivation as a necessary component of technological transformation [@AIActionPlan].
+
 ### From Extraction to Development
 
 The knowledge economy often extracted value from human capital—mining expertise, creativity, and insight for corporate gain. The cultivation economy invests in developing human capacities that appreciate over time. Organizations profit not by extracting but by enhancing human potential.
