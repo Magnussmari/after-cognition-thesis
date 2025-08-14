@@ -52,8 +52,6 @@ Future researchers employing similar methods should maintain rigorous documentat
 - **Context window** — The maximum amount of text/tokens a model can consider at once when producing an output.
 - **Hallucination** — Fluent but false, unfounded, or fabricated content produced by a model.
 
----
-
 ## Acknowledgements {.unnumbered}
 
 This thesis was not written in an academic vacuum. It was forged in the quiet hours between family life and a lifelong sense of duty. It is, first and foremost, for my children, who will inherit the world this work attempts to understand.
@@ -76,13 +74,9 @@ My deepest gratitude is to all those who keep the gates, in ways both large and 
 Akureyri, Iceland  
 July 30, 2025
 
----
-
 ## Data and Materials Statement {.unnumbered}
 
 All conceptual frameworks, navigation instruments, and cultivation protocols described in this thesis are available for academic use and further development. The Life-Value Development Compass (LVDC), discriminative indicators battery, and cultivation protocols represent theoretical proposals requiring empirical validation. Researchers interested in collaborative development or pilot testing should contact the author. No proprietary data was used in this theoretical work. All citations reference publicly available sources.
-
----
 
 
 # Appendix B: Personal Journey and Extended Context {.unnumbered}
@@ -110,6 +104,4 @@ Since that pivotal moment at Oxford, I have been vigilant in collecting, analysi
 In December 2024, I took time away from formal employment—not as a holiday, but to devote myself entirely to studying the technology. It was, at times, an unsettling descent into the "rabbit hole." I recall a conversation with my father, then 77, about the disinterest and misunderstanding surrounding AI. His response reflected the stoicism of his generation: he had grown up, raised a family, and lived with the constant nuclear threat of the Cold War, and his request to me was simple—do what we can to solve our challenges so that the next generation can face their own.
 
 This thesis is, in many ways, my attempt to answer that request. It is dedicated to my daughters, so that they may face their own life challenges and create their life stories, and to my wife, who reminds me daily of that which remains irreducible to computation.
-
----
 EOF < /dev/null
