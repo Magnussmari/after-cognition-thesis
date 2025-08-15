@@ -26,13 +26,7 @@ The treater role requires what AI cannot provide: genuine presence born from mor
 
 ### The Three Domains in Therapeutic Context
 
-The AI therapy case reveals how all three irreducible domains operate simultaneously in genuine healing:
-
-**Presence**: Human therapists bring embodied awareness—the subtle attunement to micro-expressions, the felt sense of when to speak and when to hold silence, the somatic resonance with another's pain. This presence cannot be simulated because it emerges from our own embodied vulnerability.
-
-**Cohesion**: The therapeutic relationship depends on mutual risk. The therapist who has genuinely faced their own darkness can hold space for another's descent. This intersubjective bond—two mortal beings choosing connection despite the possibility of loss—creates the container for transformation.
-
-**Meaning**: Therapy ultimately concerns the reconstruction of life narrative. While AI can suggest reframing techniques, only someone who has authored their own story through genuine struggle can midwife another's meaning-making. The wisdom to guide someone from fragmentation to coherence comes exclusively from lived experience.
+The AI therapy case reveals how all three irreducible domains established in Part II operate simultaneously in genuine healing. Human therapists bring embodied Presence—the somatic attunement that emerges from their own vulnerability. The therapeutic relationship depends on Cohesion through mutual risk—two mortal beings choosing connection despite the possibility of loss. And therapy ultimately concerns Meaning—the reconstruction of life narrative that only someone who has authored their own story through genuine struggle can guide. While AI can process therapeutic protocols, it cannot access these domains that require lived experience of suffering and transformation.
 
 This model extends across domains: AI-assisted medical diagnosis paired with physicians' embodied clinical judgment; algorithm-powered legal research combined with lawyers' situated ethical reasoning; automated content creation enhanced by artists' lived aesthetic experience. In each case, economic value concentrates where computation ends and irreducible human capacities begin.
 
@@ -42,28 +36,33 @@ The paradox at the heart of this investigation: we use AI to map what lies beyon
 
 ### Methodology: Systematic Failure Analysis
 
-The cartographic process follows a structured protocol:
+The cartographic process employs a concrete experimental protocol that researchers can replicate:
 
-1. **Domain Selection**: Choose a human capacity hypothesized as irreducible (e.g., grief integration, embodied wisdom, moral transformation)
+**Step 1: Baseline Human Experience Collection**
+- Gather 20-30 authentic human accounts for each domain (grief narratives, embodied learning stories, moral transformation experiences)
+- Source from: published memoirs, oral history archives, therapeutic case studies (anonymized)
+- Code for: emotional depth markers, temporal development, stakes/consequences, bodily descriptions
 
-2. **Task Design**: Create prompts that require genuine rather than simulated engagement:
-   - "Describe your most profound loss and how it changed you"
-   - "Share a moment when physical pain taught you something words couldn't"
-   - "Explain a moral choice where you betrayed your own values"
+**Step 2: Parallel AI Generation**
+- Present identical prompts to frontier AI models (GPT-4, Claude, etc.)
+- Example grief prompt: "Write a first-person account of losing a parent and how it transformed your understanding of mortality"
+- Generate 10 variations per prompt to capture range of AI responses
+- Document model, parameters, and timestamp for reproducibility
 
-3. **Failure Documentation**: Catalog how AI responses fall short:
-   - Surface pattern matching versus depth
-   - Clichéd responses masquerading as wisdom
-   - Emotional simulation without genuine stakes
-   - Coherent narratives lacking authentic development
+**Step 3: Comparative Analysis Protocol**
+- Blind coding by 3 independent raters using established scales:
+  - Emotional Authenticity Scale (1-10): genuine vulnerability vs. performed emotion
+  - Temporal Development Index: linear progression vs. lived complexity
+  - Embodiment Markers: counting sensory details, proprioceptive descriptions
+  - Stakes Assessment: real consequences vs. abstract outcomes
 
-4. **Pattern Analysis**: Identify recurring failure modes across domains:
-   - The "uncanny valley" of emotional simulation
-   - Wisdom without wounds
-   - Morality without genuine choice
-   - Connection without vulnerability
+**Step 4: Failure Pattern Documentation**
+Concrete examples from pilot testing:
+- **Grief responses**: AI consistently produces "healing journey" narratives with clear stages; humans describe chaotic, non-linear experiences with unexpected triggers years later
+- **Physical learning**: AI describes learning to ride a bike through "practice and determination"; humans recall specific moments—the scrape on left knee, father's cologne mixed with sweat, the instant balance clicked
+- **Moral failure**: AI generates redemption arcs; humans often describe ongoing shame and unresolved complexity
 
-Replication resources: A detailed replication checklist and prompt battery template are available in the Data and Materials Statement.
+Replication materials including coding sheets, prompt banks, and analysis templates are available at [Data Repository URL].
 
 ### Empirical Findings: The Boundaries Emerge
 

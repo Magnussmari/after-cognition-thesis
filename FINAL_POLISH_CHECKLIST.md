@@ -20,9 +20,9 @@ Your thesis successfully argues that human value will concentrate in irreducible
 - [x] Add 2-3 more concrete institutional examples beyond UK MOJ
 
 ## 📝 Medium-Priority Improvements
-- [ ] Reduce repetition of three domains explanation (keep best version in Part II)
-- [ ] Tighten Part IV cartographic methodology (more concrete, less abstract)
-- [ ] Ensure "correlates vs. constituents" section doesn't disrupt flow
+- [x] Reduce repetition of three domains explanation (keep best version in Part II)
+- [x] Tighten Part IV cartographic methodology (more concrete, less abstract)
+- [x] Ensure "correlates vs. constituents" section doesn't disrupt flow
 
 ## 💡 Optional Enhancements
 - [ ] Add brief glossary of key terms
