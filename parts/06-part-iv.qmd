@@ -2,7 +2,7 @@
 
 ## The Hybrid Model in Action: A Concrete Example
 
-To illustrate how irreducible human capacities can work alongside AI automation, consider the rise of AI therapy platforms like Woebot and Replika. These systems demonstrate both the promise and limits of automated mental health support. Woebot, developed at Stanford, delivers evidence-based cognitive behavioral therapy (CBT) through conversational AI, achieving measurable improvements in depression and anxiety symptoms [@fitzpatrick_delivering_cognitive_behavior_2017a]. Replika offers AI companionship to millions, with users forming deep emotional attachments to their digital confidants.
+To illustrate how irreducible human capacities can work alongside AI automation in the crucial 5-10 year transition period ahead, consider the rise of AI therapy platforms like Woebot and Replika. These systems demonstrate both the promise and limits of automated mental health support, offering concrete evidence for how the theoretical framework developed in previous sections manifests in practice today. Woebot, developed at Stanford, delivers evidence-based cognitive behavioral therapy (CBT) through conversational AI, achieving measurable improvements in depression and anxiety symptoms [@fitzpatrick_delivering_cognitive_behavior_2017a]. Replika offers AI companionship to millions, with users forming deep emotional attachments to their digital confidants.
 
 Yet these platforms reveal the precise boundaries of automation. Woebot's reported shutdown citing regulatory challenges exposed the gap between algorithmic therapy and genuine care (illustrative press: [@thompsonTherapyShockPioneering2025]). Replika's controversy over users developing romantic attachments to chatbots—followed by traumatic experiences when algorithms changed—demonstrates the ethical minefield of simulated intimacy [@hoPotentialPitfallsRomantic2025]. Peer-reviewed efficacy and limits of CBT chatbots are also discussed in [@fitzpatrick_delivering_cognitive_behavior_2017a].
 
@@ -11,6 +11,8 @@ Yet these platforms reveal the precise boundaries of automation. Woebot's report
 These cases illuminate a fundamental pattern: AI excels as a mental health monitor but fails as a treater of the human condition. As monitor, AI provides unparalleled capabilities—tracking mood patterns with perfect recall, delivering evidence-based CBT protocols with absolute consistency, offering 24/7 availability without fatigue. Yet monitoring is not healing.
 
 This "Monitor vs. Treater" distinction is not merely a theoretical model; it is the explicit operational logic now being adopted by major government bodies. The UK's AI Action Plan for Justice perfectly illustrates this division of labor. It champions AI for monitoring tasks: using "transcription tools that allow probation officers to focus on higher-value work," improving "scheduling" of prison capacity, and enhancing "search" functions. Simultaneously, it protects the human role in treating, stating that "AI should support, not substitute, human judgment" and must enable staff to deliver justice with "greater empathy and care." This is a direct, institutional recognition of the boundary between the computable and the irreducible [@AIActionPlan].
+
+This principle extends across the Atlantic through the European Union's General Data Protection Regulation (GDPR) Article 22, which grants citizens the legal right to human review of automated decisions. When algorithms make decisions with "legal or similarly significant effects," individuals can demand "a new decision, taken by a person"—essentially guaranteeing human oversight in consequential matters. The EU has effectively prohibited purely automated decision-making in domains like justice, employment, and finance, enshrining "meaningful human oversight" as a legal requirement [@gdpr2018article22]. This trans-Atlantic consensus demonstrates that major democratic institutions recognize the irreducible value of human judgment in matters requiring empathy, contextual understanding, and moral reasoning.
 
 The treater role requires what AI cannot provide: genuine presence born from mortality, authentic vulnerability emerging from personal struggle, and the capacity to hold space for another's pain because one has genuinely suffered. The therapeutic alliance remains architecturally impossible for systems without stakes in existence.
 
@@ -267,15 +269,6 @@ This ultimate test case reveals cultivation's true nature: not luxury but necess
 The Cultivation Economy is, at its deepest level, a Care Economy—not merely in professional terms but in recognizing care as the fundamental human capacity that creates all other value. This insight transforms the following protocols from self-improvement exercises into training for humanity's essential function.
 
 
-### Case Examples: Cultivation in Practice
-
-To ground these concepts, consider two brief fictional examples of how organizations might implement cultivation principles. These cases are illustrative and not drawn from real events or data:
-
-**Case 1: The Helsinki Hospital Initiative**
-A Finnish hospital facing nurse burnout implemented a radical "Presence Protocol" in 2024. Instead of adding mindfulness apps or wellness seminars, they restructured shifts to include 15-minute "presence breaks" where nurses could step away from monitoring screens to practice embodied care—sitting with patients, sharing tea, offering non-medical comfort. Results after six months: 40% reduction in burnout scores, 25% improvement in patient satisfaction, and surprisingly, 15% increase in clinical outcome measures. The key insight: when nurses reconnected with why they entered healthcare—to be present with suffering—their technical performance improved as well.
-
-**Case 2: Detroit Auto Worker Reskilling**
-When a Michigan auto plant announced AI-driven automation in 2023, the union negotiated not just severance but "cultivation transition." Workers facing displacement received training not in competing technical skills but in irreducible capacities. Assembly line workers became peer counselors for others facing job loss, using their lived experience of economic uncertainty. Welders trained as youth mentors, teaching not just technical skills but resilience through craft. Eighteen months later, 70% had found new employment at equal or higher wages—not despite focusing on "soft skills" but because employers recognized the irreplaceable value of workers who could build trust, navigate ambiguity, and create meaning from difficulty.
 
 ## Phase 3 - Cultivation Protocols: From Theory to Practice
 
@@ -380,6 +373,8 @@ Organizations can systematically cultivate irreducible capacities. Tom Barry's r
 ### Educational Reform
 
 Education systems must shift focus from information transfer to capacity cultivation:
+
+Finland offers a compelling national example of this shift. In outlining their 2045 education vision, Finland's Minister of Education Anders Adlercreutz posed the fundamental question: "What must humans learn in an age where machines outperform us in most things?" Finland's answer directly aligns with our framework—focusing on qualities that "cannot and should not be automated" such as empathy, creativity, ethical reasoning, and democratic agency. As Adlercreutz stated, "We need to uphold the human factor in the age of machines and artificial intelligence," calling for schools to teach "the most profound of skills; the things that make us human" [@ucl2025finland]. This represents a national-level validation of the value concentration hypothesis, with curricula being realigned to cultivate critical thinking, caring communication, and civic engagement alongside technical literacy.
 
 **Curriculum Revolution**:
 - Embodiment practices from early age

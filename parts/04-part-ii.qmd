@@ -3,11 +3,13 @@
 > You could leave life right now. Let that determine what you do, say, think.  
 > — Marcus Aurelius, *Meditations*
 
+Part I diagnosed the economic crisis: AI's commoditization of cognition threatens human value across stratified social realities. But economic analysis alone cannot identify what remains irreducible. Markets excel at pricing but struggle to recognize intrinsic worth—they can tell us the cost of everything and the value of nothing. To understand what cannot be commoditized, we must shift from economic to philosophical analysis, from market metrics to lived experience. This requires phenomenology—the rigorous study of consciousness and experience as they present themselves, prior to scientific abstraction or economic calculation.
+
 ## Foundations in Phenomenology: Husserl's Lebenswelt as a Ground for Value
 
 For Husserl, the *Lebenswelt* is the pre-theoretical lived world—the ground of all experience [@husserl1970crisis]. Computation, by contrast, manipulates representations, not reality itself; it cannot access the semantic ground that gives symbols meaning. Schütz extends this to social reality, showing that participatory knowledge must be lived, not uploaded [@schutz1967phenomenology].
 
-The lifeworld provides our cartographic foundation: not what AI currently cannot do, but what computation cannot access in principle—the felt sense of being a mortal body, participatory knowledge of shared vulnerability, and the first-person perspective of authoring one's life story. These three dimensions—embodiment, intersubjectivity, and narrative identity—are our map's cardinal directions.
+The lifeworld provides our cartographic foundation: not what AI currently cannot do, but what computation cannot access in principle—the felt sense of being a mortal body, participatory knowledge of shared vulnerability, and the first-person perspective of authoring one's life story. These three dimensions—embodiment, intersubjectivity, and narrative identity—are our map's cardinal directions. While technological capabilities will continue to evolve, this cartography focuses on the 5-10 year horizon most relevant for current decision-making, grounding philosophical insights in practical timeframes for individuals and institutions navigating the AI transition.
 
 ::: {.callout-note}
 ## The Three Domains Visualization
