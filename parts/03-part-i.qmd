@@ -13,8 +13,8 @@ Unlike the steam engine or electricity, whose impacts unfolded over generations,
 ::: {.callout-note}
 ## Key Distinction: Commoditization vs Commodification
 
-- **Commoditization**: Market process where differentiated goods become undifferentiated (what AI does to cognitive tasks)
-- **Commodification**: Transformation of non-market relations into market goods (broader social process)
+- **Commoditization**: Market process where differentiated goods become undifferentiated—the process by which specialized cognitive tasks (legal research, code writing, analysis) lose their uniqueness and become interchangeable commodities as AI makes them universally accessible
+- **Commodification**: Transformation of non-market relations into market goods (broader social process of turning relationships, experiences, or values into tradeable items)
 
 AI accelerates both, but this thesis focuses on commoditization's impact on human value. In this thesis, the primary causal driver is *commoditization*; *commodification* is treated as a social externality. A Nordic / European framing additionally foregrounds public-goods buffering (education, linguistic preservation, equitable digital access) as potential counterweights to pure market commoditization dynamics.
 :::
@@ -101,4 +101,4 @@ Notes: Table is illustrative, consolidating heterogenous sources; magnitudes are
 
 
 
-To identify what cannot be commoditized, we now turn to the phenomenological mapping of irreducible human value in Part II.
+To identify what cannot be commoditized, we now turn to the phenomenological mapping of irreducible human value in Part II (Section 2).

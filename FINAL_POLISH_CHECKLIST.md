@@ -26,7 +26,6 @@ Your thesis successfully argues that human value will concentrate in irreducible
 
 ## 💡 Optional Enhancements
 - [ ] Add brief glossary of key terms
-- [ ] Update any 2024 citations to most recent versions
 - [ ] Consider adding one more non-Western philosophical tradition
 - [ ] Add transition sentences between major sections
 

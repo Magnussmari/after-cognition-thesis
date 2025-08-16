@@ -3,13 +3,13 @@
 > You could leave life right now. Let that determine what you do, say, think.  
 > — Marcus Aurelius, *Meditations*
 
-Part I diagnosed the economic crisis: AI's commoditization of cognition threatens human value across stratified social realities. But economic analysis alone cannot identify what remains irreducible. Markets excel at pricing but struggle to recognize intrinsic worth—they can tell us the cost of everything and the value of nothing. To understand what cannot be commoditized, we must shift from economic to philosophical analysis, from market metrics to lived experience. This requires phenomenology—the rigorous study of consciousness and experience as they present themselves, prior to scientific abstraction or economic calculation.
+Part I diagnosed the economic crisis: AI's commoditization of cognition threatens human value across stratified social realities. But economic analysis alone cannot identify what remains irreducible. Markets excel at pricing but struggle to recognize intrinsic worth—they can tell us the cost of everything and the value of nothing. To understand what cannot be commoditized, we must shift from economic to philosophical analysis, from market metrics to lived experience. This requires phenomenology—the philosophical method that studies consciousness and experience as they appear to us directly, without imposing external theories or reductions.
 
 ## Foundations in Phenomenology: Husserl's Lebenswelt as a Ground for Value
 
-For Husserl, the *Lebenswelt* is the pre-theoretical lived world—the ground of all experience [@husserl1970crisis]. Computation, by contrast, manipulates representations, not reality itself; it cannot access the semantic ground that gives symbols meaning. Schütz extends this to social reality, showing that participatory knowledge must be lived, not uploaded [@schutz1967phenomenology].
+For Husserl, the *Lebenswelt* (lifeworld) is the pre-theoretical lived world—the ground of all experience before scientific abstraction or theoretical analysis [@husserl1970crisis]. Computation, by contrast, manipulates representations, not reality itself; it cannot access the semantic ground that gives symbols meaning. Schütz extends this to social reality, showing that participatory knowledge must be lived, not uploaded [@schutz1967phenomenology].
 
-The lifeworld provides our cartographic foundation: not what AI currently cannot do, but what computation cannot access in principle—the felt sense of being a mortal body, participatory knowledge of shared vulnerability, and the first-person perspective of authoring one's life story. These three dimensions—embodiment, intersubjectivity, and narrative identity—are our map's cardinal directions. While technological capabilities will continue to evolve, this cartography focuses on the 5-10 year horizon most relevant for current decision-making, grounding philosophical insights in practical timeframes for individuals and institutions navigating the AI transition.
+The lifeworld provides our cartographic foundation: not what AI currently cannot do, but what computation cannot access in principle—the felt sense of being a mortal body, participatory knowledge of shared vulnerability, and the first-person perspective of authoring one's life story. These three dimensions—embodiment (lived bodily experience), intersubjectivity (connection between conscious beings), and narrative identity (self-authored life story)—are our map's cardinal directions. While technological capabilities will continue to evolve, this cartography focuses on the 5-10 year horizon most relevant for current decision-making, grounding philosophical insights in practical timeframes for individuals and institutions navigating the AI transition.
 
 ::: {.callout-note}
 ## The Three Domains Visualization
@@ -24,7 +24,7 @@ The lifeworld provides our cartographic foundation: not what AI currently cannot
 
 | Domain | Working Definition | Operational Indicators (examples) | Everyday Examples |
 |:--|:--|:--|:--|
-| Presence | Embodied, mortality-grounded awareness and tacit intelligence | Interoception (MAIA), sustained attention (MAAS/FFMQ, breath-counting), proprioceptive accuracy | Nurse sensing fever break; mechanic by vibration; mindful walking |
+| Presence | Embodied, mortality-grounded awareness and tacit intelligence | Interoception (bodily self-awareness), sustained attention (MAAS/FFMQ scales), proprioceptive accuracy (body position sense) | Nurse sensing fever break; mechanic by vibration; mindful walking |
 | Cohesion | Trust and reciprocity via mutual vulnerability and shared stakes | Trust scale change; rupture–repair latency; reciprocity index | Sweat lodge/choral resonance; “smoke break” ritual; conflict repair |
 | Meaning | Self-authored narrative integrating adversity and purpose | McAdams coherence coding; PTGI; purpose alignment | Reframing migration story; post-injury union safety leadership |
 :::
@@ -62,7 +62,7 @@ The first territory of irreducible value is what Maurice Merleau-Ponty called "t
 
 David Chalmers' "hard problem" distinguishes functional processes (which AI can replicate) from phenomenal experience (which it cannot) [@chalmers1995facing]. An AI can identify red wavelengths, associate them with cultural meanings, even generate poetry about sunsets. But the *redness* of red—the quale, the what-it-is-likeness—remains inaccessible to computation.
 
-This gap is not mystical but structural. Computation processes third-person descriptions; qualia are irreducibly first-person. No amount of functional sophistication bridges this explanatory gap because the phenomenal "what-it-is-like" requires a perspective that experiences, not one that processes. This marks a boundary of commoditization.
+This gap is not mystical but structural. Computation processes third-person descriptions; qualia (the subjective, experiential qualities of conscious states—the "redness" of red, the "painfulness" of pain) are irreducibly first-person. No amount of functional sophistication bridges this explanatory gap because the phenomenal "what-it-is-like" requires a perspective that experiences, not one that processes. This marks a boundary of commoditization.
 
 ### Embodied Intelligence and Mortality Salience
 
@@ -81,7 +81,7 @@ This mortality-grounded cognition suffuses not only existential crisis but also 
 
 Everyday embodiment creates irreducible knowledge. Proprioception—the sense of body position and movement—grounds spatial reasoning and metaphorical thinking [@lakoff1999philosophy]. We understand "grasping" an idea through the experience of grasping objects. We feel "moved" by beauty through bodily experience of movement.
 
-The mechanic diagnosing an engine by the quality of its idle—fingers reading vibrations through the hood, ear attuned to rhythms learned across thousands of repairs—embodies intelligence no diagnostic computer can replicate. Her knowledge lives in the interplay of sound, touch, and accumulated pattern recognition. The baker who knows by the dough's resistance to her palm exactly when it's ready, or the gardener whose hands read soil moisture and compaction through touch alone—these represent everyday proprioceptive wisdom that emerges only through embodied practice.
+The mechanic diagnosing an engine by the quality of its idle—fingers reading vibrations through the hood, ear attuned to rhythms learned across thousands of repairs—embodies intelligence no diagnostic computer can replicate. Her knowledge lives in the interplay of sound, touch, and accumulated pattern recognition. The baker who knows by the dough's resistance to her palm exactly when it's ready, or the gardener whose hands read soil moisture and compaction through touch alone—these represent everyday proprioceptive wisdom (the body's sense of its own position and movement) that emerges only through embodied practice.
 
 ::: {.callout-tip}
 #### Autoethnographic Vignette: Presence
@@ -97,7 +97,7 @@ This embodied knowledge appears in expertise: the pianist's fingers "knowing" a 
 
 ### The Neuroscience of Embodied Presence
 
-Neuroscience confirms what phenomenology intuited a century ago: embodied presence emerges from the deep integration of brain, body, and environment. Damasio's somatic marker hypothesis demonstrates how emotional and bodily states guide decision-making through accumulated experience—the "gut feelings" that emerge from years of embodied learning [@damasio1994descartes]. The insular cortex, mapping internal bodily states, creates the neurological substrate for interoception—our sense of the body from within. Studies of expert meditators show this region can be cultivated, enhancing presence and self-awareness.
+Neuroscience confirms what phenomenology intuited a century ago: embodied presence emerges from the deep integration of brain, body, and environment. Damasio's somatic marker hypothesis demonstrates how emotional and bodily states guide decision-making through accumulated experience—the "gut feelings" that emerge from years of embodied learning [@damasio1994descartes]. The insular cortex, mapping internal bodily states, creates the neurological substrate for interoception—our conscious awareness of internal bodily signals like heartbeat, breathing, and gut feelings. Studies of expert meditators show this region can be cultivated, enhancing presence and self-awareness.
 
 Neuroplasticity research reveals how embodied practice literally reshapes the brain. London taxi drivers develop enlarged hippocampi from navigating complex street layouts [@maguire2000navigation]. Musicians show expanded motor and auditory cortices corresponding to their instruments [@gaser_brain_structures_differ_2003a]. These changes show that presence isn't merely subjective experience but structural transformation through lived practice—something that requires a body situated in space and time.
 
@@ -107,7 +107,7 @@ Yet presence alone is not enough; it must be held in relationship—the foundati
 
 **Cohesion is the irreducible value of trust born from mutual vulnerability—what AI cannot achieve because it has nothing to lose.**
 
-The second territory encompasses bonds between conscious beings—not mere interaction but genuine intersubjectivity. This domain emerges through shared vulnerability and mutual recognition.
+The second territory encompasses bonds between conscious beings—not mere interaction but genuine intersubjectivity (the shared understanding and mutual recognition between subjects). This domain emerges through shared vulnerability and mutual recognition.
 
 ### Trust Beyond Transaction
 
@@ -223,7 +223,7 @@ Awe requires a self to transcend—a bounded perspective suddenly expanded. AI, 
 
 ### The Narrative Brain: Neural Foundations of Meaning-Making
 
-Neuroscience reveals how meaning emerges from the integration of memory, emotion, and temporal experience. The brain's default mode network (DMN), active during rest and introspection, weaves disparate experiences into coherent self-narratives [@andrews2021default]. This network, spanning medial prefrontal cortex, posterior cingulate cortex, and angular gyrus, creates what we experience as the "narrative self"—the ongoing story of who we are.
+Neuroscience reveals how meaning emerges from the integration of memory, emotion, and temporal experience. The brain's default mode network (DMN)—a set of brain regions active during rest and self-referential thinking—weaves disparate experiences into coherent self-narratives [@andrews2021default]. This network, spanning medial prefrontal cortex, posterior cingulate cortex, and angular gyrus, creates what we experience as the "narrative self"—the ongoing story of who we are.
 
 Crucially, this meaning-making depends on episodic memory—the recall of personally experienced events encoded with emotional and contextual richness [@tulving2002episodic]. Unlike semantic memory (facts), episodic memory is fundamentally autobiographical, tied to the lived experience of a particular body moving through time. The hippocampus, essential for forming these memories, literally maps our journey through space and time, creating the substrate for personal narrative.
 
@@ -284,7 +284,7 @@ This analysis neither advocates nor discourages psychedelic use. It recognizes p
 
 #### Integration with Cultivation Protocols
 
-The psychedelic breakthrough illuminates but does not replace the systematic cultivation practices detailed in Part IV. Rather, it can serve as a high-intensity "stress test" that reveals latent capacities requiring ongoing development:
+The psychedelic breakthrough illuminates but does not replace the systematic cultivation practices detailed in Part IV (Section 4.3). Rather, it can serve as a high-intensity "stress test" that reveals latent capacities requiring ongoing development:
 
 - **Presence cultivation** benefits from integration practices that embody insights from non-ordinary states
 - **Cohesion development** deepens through the vulnerability of sharing and witnessing profound experiences

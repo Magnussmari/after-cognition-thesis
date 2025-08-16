@@ -4,7 +4,7 @@
 
 Ancient myths diagnose timeless pathologies. King Midas, granted the power to turn everything he touched to gold, discovered that a gift becomes a curse when it transforms the sources of life into lifeless treasure. He starved in a room full of gold, embracing a statue where his daughter once stood.
 
-This is our present condition: artificial intelligence as the new golden touch, transforming the diverse qualities of human thought into fungible cognitive output. We generate infinite "value" while starving for genuine presence, fracturing the bonds of trust, losing the capacity to make meaning from our lives. Unlike Midas, our curse is self-inflicted—a systemic logic we built and chose. Unlike Midas, the consequences fall most heavily on the vulnerable: the 25.5% of Hispanic workers facing displacement, service workers whose embodied labor is deemed replaceable, caregivers whose irreplaceable presence is systematically undervalued.
+This is our present condition: artificial intelligence as the new golden touch, transforming the diverse qualities of human thought into fungible cognitive output. We generate infinite "value" while starving for genuine presence, fracturing the bonds of trust, losing the capacity to make meaning from our lives. Unlike Midas, our curse is self-inflicted—a systemic logic we built and chose. Unlike Midas, the consequences fall most heavily on the vulnerable: the 25.5% of Hispanic workers facing displacement [@mckinsey2019future], service workers whose embodied labor is deemed replaceable, caregivers whose irreplaceable presence is systematically undervalued.
 
 The solution remains what it always was: to wash our hands in the river Pactolus, to consciously reclaim what is irreducibly alive.
 
@@ -51,3 +51,12 @@ The contribution is threefold:
 This is not a counsel of despair but a map toward renewal. The commoditization crisis, properly understood, becomes an opportunity for remembering and developing what makes us most deeply human. The question is not whether this transformation will occur, but whether we will shape it consciously.
 
 The river Pactolus awaits. The choice to wash our hands—to reclaim what cannot be computed—remains ours to make.
+
+**Declaration**
+
+This thesis does not resolve the tension between measuring the unmeasurable—it weaponizes that tension. The contradictions you'll encounter are features, not bugs, of working within systems we seek to transform.
+
+Palazzo Adriano
+Sicily
+15 August 2025
+Magnús Smári Smárason
