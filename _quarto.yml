@@ -15,6 +15,7 @@ book:
   chapters:
     - index.qmd
     - parts/00-abstract.qmd
+    - parts/00-acknowledgements.qmd
     - parts/00-frontmatter.qmd
     - parts/01-prologue.qmd
     - parts/02-introduction.qmd

@@ -154,7 +154,7 @@ The future is not a technological inevitability to be passively accepted. It is 
 
 We are the guardians at the gate.
 
-## Predictions and 12–24 Month Roadmap
+## Predictions and 12–24 Month Roadmap (Replace with the hypothesis of Accessibility shock)
 
 ### Testable Predictions
 - Authenticity premiums rise with AI capability improvements (detectable via WTP in therapy, live arts, bespoke education), controlling for income and quality.

@@ -1,0 +1,16 @@
+{
+  "default": [
+    {
+      "key": "thesis-topic",
+      "value": "After Cognition: Human Value in the Age of Irreducibility - philosophical thesis exploring how human value concentrates in three irreducible domains (Presence, Cohesion, Meaning) as AI commoditizes cognitive labor",
+      "namespace": "default",
+      "timestamp": 1755452361342
+    },
+    {
+      "key": "key-concepts",
+      "value": "Value Concentration Hypothesis: human value concentrates in irreducible domains. Ástrós Paradox: using AI to reveal what AI cannot do. Three domains: Presence (embodied consciousness), Cohesion (intersubjective trust), Meaning (narrative identity). Cultivation Economy: post-AI economic model.",
+      "namespace": "default",
+      "timestamp": 1755452368213
+    }
+  ]
+}

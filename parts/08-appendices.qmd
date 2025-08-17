@@ -52,32 +52,6 @@ Future researchers employing similar methods should maintain rigorous documentat
 - **Context window** — The maximum amount of text/tokens a model can consider at once when producing an output.
 - **Hallucination** — Fluent but false, unfounded, or fabricated content produced by a model.
 
-## Acknowledgements {.unnumbered}
-
-This thesis was not written in an academic vacuum. It was forged in the quiet hours between family life and a lifelong sense of duty. It is, first and foremost, for my children, who will inherit the world this work attempts to understand.
-
-I owe an immeasurable debt to my wife, whose patience and support created the space for this immense undertaking.
-
-My deepest gratitude to my thesis supervisors, Professor Giorgio Baruchello and Dr. Christopher DiCarlo, whose complementary perspectives shaped this work profoundly. Professor Baruchello's philosophical depth and introduction to McMurtry's Life-Value framework provided the theoretical foundation. Dr. DiCarlo's commitment to critical thinking and ethical rigor—exemplified in his ABCDEF framework [@dicarlo2011pain] and his pioneering work on AI governance [@dicarlo2025building]—ensured that these philosophical insights could withstand the most demanding analytical scrutiny.
-
-The intellectual framework of this thesis was profoundly shaped by experiences far from the library. In the fall of 2023, I had the privilege of performing Beethoven's Ninth Symphony with my choir in a sold-out concert hall in Akureyri. The months of practice, the hardship of learning the piece, and the final, transcendent experience of performing it with over a hundred people on stage for a standing ovation, created a moment of strange and inexplicable euphoria. It was a powerful, first-hand lesson in the irreducible value of embodied, intersubjective, and narrative meaning—the very concepts at the heart of this work. It is one thing to write about awe; it is another to be seized by it.
-
-For those who wish to explore these territories further, I can only offer the signposts that have guided my own journey. The foundational texts of our spiritual traditions, from the Bible to the Bhagavad Gita, remain unparalleled archives of the human search for meaning. The memoirs of those who have faced extreme challenges, like Gene Kranz's *Failure Is Not an Option* or Hans von Luck's *Panzer Commander*, offer profound insights into leadership, resilience, and the complexities of the human spirit. And sometimes, the deepest wisdom is found in the unlikeliest of places, like the effortless cool of Matthew McConaughey's *Greenlights*.
-
-Finally, I must acknowledge the strange, adversarial partnership with the very technology this thesis scrutinizes. The arguments within these pages were sharpened against the unfeeling, logical brutality of a large language model, a process that was as maddening as it was clarifying. It was a constant, humbling reminder of the paradox at the heart of this new era.
-
-My deepest gratitude is to all those who keep the gates, in ways both large and small.
-
----
-
-**Magnús Smári Smárason**  
-Akureyri, Iceland  
-July 30, 2025
-
-## Data and Materials Statement {.unnumbered}
-
-All conceptual frameworks, navigation instruments, and cultivation protocols described in this thesis are available for academic use and further development. The Life-Value Development Compass (LVDC), discriminative indicators battery, and cultivation protocols represent theoretical proposals requiring empirical validation. Researchers interested in collaborative development or pilot testing should contact the author. No proprietary data was used in this theoretical work. All citations reference publicly available sources.
-
 
 # Appendix B: Personal Journey and Extended Context {.unnumbered}
 
@@ -97,7 +71,7 @@ I then returned to union work with Eining Iðja, Iceland's largest labour union 
 
 Maintaining active UK connections, I began writing articles for a local news site and launched a personal website to share my projects. This attracted attention and led to speaking engagements with unions, NGOs, and even the Icelandic Olympic Committee. AI became central to my professional life. As a legal representative at the union, my automation systems handled much of the heavy lifting, allowing me to focus on fact-checking and quality control.
 
-In late 2023, I designed and taught *Taming Technology*, a course that has since run three times, each iteration requiring substantial updates to keep pace with the technology. After the first run, I transitioned from Eining Iðja to the University of Akureyri in a new—and in Iceland, unprecedented—role as AI Project Manager.
+In late 2024, I designed and taught *Taming Technology*, a course that has since run three times, each iteration requiring substantial updates to keep pace with the technology. After the first run, I transitioned from Eining Iðja to the University of Akureyri in a new—and in Iceland, unprecedented—role as AI Project Manager.
 
 Since that pivotal moment at Oxford, I have been vigilant in collecting, analysing, and reflecting on the broader societal impact of AI. My experience at Eining Iðja had already revealed to me a fundamental shift in the role of lawyers and legal work, yet my legal studies showed almost no engagement with AI's effects on the profession. My enthusiasm for pursuing a traditional legal career diminished accordingly.
 

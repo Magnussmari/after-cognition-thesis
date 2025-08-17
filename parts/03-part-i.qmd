@@ -40,9 +40,11 @@ The shift in cost structure is fundamental: unlike traditional SaaS^[SaaS ("Soft
 | Pricing | Per seat/month | Per token/query |
 | Scaling | Near-zero marginal cost | Linear compute costs |
 
-*Table: Economic comparison of SaaS versus AI-powered applications. Margins vary widely by model family and optimization; figures are illustrative.*
+*Table 1: Economic comparison of SaaS versus AI-powered applications. Margins vary widely by model family and optimization; figures are illustrative.*
 
 These economics drive a race to the bottom for commoditized cognitive tasks. Why pay $200/hour for a junior analyst when AI produces comparable output for $0.20? Why maintain a customer service team when chatbots handle substantial shares of routine queries at a fraction of the cost? The questions become existential for knowledge workers whose differentiation evaporates.
+
+Yet this economic transformation is only the surface manifestation of a deeper philosophical crisis. To understand what the commoditization of cognition truly means for human identity and value, we must look beyond market dynamics to existential implications.
 
 ## Beyond Price: The Philosophical Consequences of the Commoditization of Cognition
 
@@ -67,6 +69,8 @@ The crisis is not merely economic displacement but existential disorientation. K
 This speed of change precludes gradual adaptation. Previous technological shifts allowed generational adjustment—children entered new industries while parents retained obsolete but temporarily valuable skills. AI's pace offers no such buffer. A copywriter whose skills commanded premium rates in 2022 faces existential questions about professional identity by 2025.
 
 The commoditization extends beyond individual impact to social fabric. When cognitive output becomes undifferentiated, meaning must be structured through irreducible human capacities. As machines handle analysis, creation, and even emotional support, what remains essentially human are the domains of embodied presence, intersubjective cohesion, and narrative meaning-making. These domains persist not from nostalgia but from clear-eyed analysis of what computation cannot replicate—not due to temporary technical limitations but due to fundamental architectural constraints.
+
+These philosophical consequences do not fall equally on all shoulders. We must now examine how the commoditization crisis manifests differently across social strata.
 
 ## The Stratified Reality of the Commoditization Crisis
 

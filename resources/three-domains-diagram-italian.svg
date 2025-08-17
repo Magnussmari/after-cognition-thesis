@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="700" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title and subtitle -->
+  <text x="400" y="40" text-anchor="middle" font-family="Georgia, serif" font-size="32" font-weight="bold" fill="#1a1a1a">
+    I Tre Domini del Valore Umano Irriducibile
+  </text>
+  <text x="400" y="70" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-style="italic" fill="#555">
+    Dove l'esperienza umana rimane oltre la replicazione computazionale
+  </text>
+  
+  <!-- Three overlapping circles -->
+  <defs>
+    <!-- Gradients for each domain -->
+    <radialGradient id="presenceGradient">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#4A90E2;stop-opacity:0.1" />
+    </radialGradient>
+    <radialGradient id="cohesionGradient">
+      <stop offset="0%" style="stop-color:#E94B3C;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#E94B3C;stop-opacity:0.1" />
+    </radialGradient>
+    <radialGradient id="meaningGradient">
+      <stop offset="0%" style="stop-color:#F39C12;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#F39C12;stop-opacity:0.1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Circle for Presence -->
+  <circle cx="300" cy="280" r="150" fill="url(#presenceGradient)" stroke="#4A90E2" stroke-width="3"/>
+  
+  <!-- Circle for Cohesion -->
+  <circle cx="500" cy="280" r="150" fill="url(#cohesionGradient)" stroke="#E94B3C" stroke-width="3"/>
+  
+  <!-- Circle for Meaning -->
+  <circle cx="400" cy="420" r="150" fill="url(#meaningGradient)" stroke="#F39C12" stroke-width="3"/>
+  
+  <!-- Labels for each domain -->
+  <text x="300" y="180" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="bold" fill="#4A90E2">
+    PRESENZA
+  </text>
+  <text x="300" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">
+    Il Sé Incarnato
+  </text>
+  
+  <text x="500" y="180" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="bold" fill="#E94B3C">
+    COESIONE
+  </text>
+  <text x="500" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">
+    Il Noi Intersoggettivo
+  </text>
+  
+  <text x="400" y="520" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="bold" fill="#F39C12">
+    SIGNIFICATO
+  </text>
+  <text x="400" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">
+    L'Arco Narrativo
+  </text>
+  
+  <!-- Center intersection label -->
+  <text x="400" y="300" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#1a1a1a">
+    Nucleo
+  </text>
+  <text x="400" y="320" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1a1a1a">
+    Irriducibile
+  </text>
+  
+  <!-- Key characteristics for each domain -->
+  <!-- Presence characteristics -->
+  <text x="200" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#4A90E2">
+    • Qualia
+  </text>
+  <text x="200" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#4A90E2">
+    • Mortalità
+  </text>
+  <text x="200" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#4A90E2">
+    • Incarnazione
+  </text>
+  
+  <!-- Cohesion characteristics -->
+  <text x="600" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#E94B3C">
+    • Fiducia
+  </text>
+  <text x="600" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#E94B3C">
+    • Vulnerabilità
+  </text>
+  <text x="600" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#E94B3C">
+    • Rituale
+  </text>
+  
+  <!-- Meaning characteristics -->
+  <text x="400" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#F39C12">
+    • Auto-narrazione
+  </text>
+  <text x="320" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#F39C12">
+    • Integrazione
+  </text>
+  <text x="480" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#F39C12">
+    • Trasformazione
+  </text>
+  
+  <!-- Bottom caption -->
+  <text x="400" y="590" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-style="italic" fill="#666">
+    All'intersezione di presenza incarnata, legami intersoggettivi e significato narrativo
+  </text>
+  <text x="400" y="605" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-style="italic" fill="#666">
+    si trova il nucleo irriducibile del valore umano che nessun calcolo può replicare.
+  </text>
+</svg>

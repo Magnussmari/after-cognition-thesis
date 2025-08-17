@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title and subtitle -->
+  <text x="400" y="40" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#1a1a1a">
+    The Three Domains of Irreducible Human Value
+  </text>
+  <text x="400" y="70" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-style="italic" fill="#555">
+    Where human experience remains beyond computational replication
+  </text>
+  
+  <!-- Three overlapping circles -->
+  <defs>
+    <!-- Gradients for each domain -->
+    <radialGradient id="presenceGradient">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#4A90E2;stop-opacity:0.1" />
+    </radialGradient>
+    <radialGradient id="cohesionGradient">
+      <stop offset="0%" style="stop-color:#E94B3C;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#E94B3C;stop-opacity:0.1" />
+    </radialGradient>
+    <radialGradient id="meaningGradient">
+      <stop offset="0%" style="stop-color:#F39C12;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#F39C12;stop-opacity:0.1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Circle for Presence -->
+  <circle cx="300" cy="280" r="150" fill="url(#presenceGradient)" stroke="#4A90E2" stroke-width="3"/>
+  
+  <!-- Circle for Cohesion -->
+  <circle cx="500" cy="280" r="150" fill="url(#cohesionGradient)" stroke="#E94B3C" stroke-width="3"/>
+  
+  <!-- Circle for Meaning -->
+  <circle cx="400" cy="420" r="150" fill="url(#meaningGradient)" stroke="#F39C12" stroke-width="3"/>
+  
+  <!-- Labels for each domain -->
+  <text x="300" y="180" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#4A90E2">
+    PRESENCE
+  </text>
+  <text x="300" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#333">
+    The Embodied Self
+  </text>
+  
+  <text x="500" y="180" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#E94B3C">
+    COHESION
+  </text>
+  <text x="500" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#333">
+    The Intersubjective We
+  </text>
+  
+  <text x="400" y="520" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#F39C12">
+    MEANING
+  </text>
+  <text x="400" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#333">
+    The Narrative Arc
+  </text>
+  
+  <!-- Center intersection label -->
+  <text x="400" y="340" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#1a1a1a">
+    Irreducible
+  </text>
+  <text x="400" y="360" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#1a1a1a">
+    Core
+  </text>
+  
+  <!-- Key characteristics for each domain -->
+  <!-- Presence characteristics -->
+  <text x="200" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#4A90E2">
+    • Qualia
+  </text>
+  <text x="200" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#4A90E2">
+    • Mortality
+  </text>
+  <text x="200" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#4A90E2">
+    • Embodiment
+  </text>
+  
+  <!-- Cohesion characteristics -->
+  <text x="600" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#E94B3C">
+    • Trust
+  </text>
+  <text x="600" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#E94B3C">
+    • Vulnerability
+  </text>
+  <text x="600" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#E94B3C">
+    • Ritual
+  </text>
+  
+  <!-- Meaning characteristics -->
+  <text x="400" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#F39C12">
+    • Self-authorship
+  </text>
+  <text x="320" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#F39C12">
+    • Integration
+  </text>
+  <text x="480" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#F39C12">
+    • Transformation
+  </text>
+  
+  <!-- Bottom caption -->
+  <text x="400" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-style="italic" fill="#666">
+    At the intersection of embodied presence, intersubjective bonds, and narrative meaning
+  </text>
+  <text x="400" y="595" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-style="italic" fill="#666">
+    lies the irreducible core of human value that no computation can replicate.
+  </text>
+</svg>

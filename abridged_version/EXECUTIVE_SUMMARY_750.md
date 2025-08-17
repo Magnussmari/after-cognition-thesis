@@ -17,8 +17,9 @@ Evidence
 - Stratified impacts: higher displacement risks for Hispanic and Black workers; bias harms (e.g., facial recognition) fall disproportionately on marginalized groups; reskilling access is unequal.
 - Authenticity premiums: live performance outpaces streaming economics; persistent preference premia for human therapists even as AI scales CBT fidelity—markets are already pricing irreducibility.
 - Neuroscience and phenomenology: embodied presence (interoception, somatic markers), social bonding chemistry, and narrative self networks ground capacities unavailable to disembodied architectures.
+- Global philosophical validation: Islamic (Fitrah, Ruh, Ihsan), Hindu (Ātman, Purusha/Prakṛti), and Indigenous (Inipi ceremony) traditions independently identify similar irreducible domains—cross-cultural convergence on resistance to commodification.
 - High‑energy “limit case”: psychedelic trials show sustained personality change (↓ Neuroticism, ↑ Openness) contingent on embodied, mortal, relational, narrative context—precisely the stack absent in computational systems.
-- Collaboration pattern: the monitor/treater model—AI excels at monitoring (recall, consistency, triage); humans create value in treatment (presence, reciprocity, meaning‑making).
+- Collaboration pattern: the monitor/treater model—AI excels at monitoring (recall, consistency, triage); humans create value in treatment (presence, reciprocity, meaning‑making). UK MOJ's 2025 AI Action Plan explicitly adopts this framework.
 
 Implications
 - Economic model: As pC (price of computable cognition) falls, value migrates to the H‑sector (human irreducible), with scarcity inversion and authenticity premiums. Network effects of meaning scale through depth, not breadth.
@@ -49,3 +50,5 @@ Bottom line
 As AI drives the price of computable cognition down, human value rises where machines cannot go: lived presence, mutual risk‑bearing relationship, and self‑authored meaning. The task is not to compete with computation, but to cultivate what computation reveals by contrast: what makes us irreplaceably human.
 
 
+
+*Updated: August 16, 2025*

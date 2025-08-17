@@ -34,6 +34,8 @@ This model extends across domains: AI-assisted medical diagnosis paired with phy
 
 The paradox at the heart of this investigation: we use AI to map what lies beyond AI. This is not contradiction but methodology. By pushing frontier models to their limits, we discover where those limits lie. The failures are not bugs but data—each breakdown revealing another contour of the irreducible.
 
+We use the master's tools not to dismantle the master's house, but to build scaffolding for something beyond it. Every framework proposed here carries its own contradictions deliberately.
+
 ### Methodology: Systematic Failure Analysis
 
 The cartographic process employs a concrete experimental protocol that researchers can replicate:
@@ -217,6 +219,8 @@ For academic credibility and practical application, the test battery requires ri
 
 The goal is not ranking humans but identifying areas for development and tracking growth in irreducible capacities. The instruments serve cultivation rather than mere measurement.
 
+These measurement approaches find their most profound application in a domain where all three irreducible capacities converge under maximum stakes: the act of caring for another's development.
+
 ## The Ultimate Test Case: Developmental Caregiving
 
 Before detailing cultivation protocols, we must examine the domain where all three irreducible capacities operate simultaneously under maximum stakes: developmental caregiving. This analysis emerged from recognizing that raising a child—or more broadly, any act of developmental caregiving—represents the quintessential territory of the irreducible.
@@ -267,7 +271,7 @@ This ultimate test case reveals cultivation's true nature: not luxury but necess
 
 The Cultivation Economy is, at its deepest level, a Care Economy—not merely in professional terms but in recognizing care as the fundamental human capacity that creates all other value. This insight transforms the following protocols from self-improvement exercises into training for humanity's essential function.
 
-
+From mapping boundaries and measuring capacities, we turn finally to the practical question: how do we systematically cultivate what we've identified as irreducible?
 
 ## Phase 3 - Cultivation Protocols: From Theory to Practice
 
